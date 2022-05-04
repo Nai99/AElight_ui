@@ -1,0 +1,1 @@
+{"namespace":"debug_screen","special_render":{"type":"custom","renderer":"debug_screen_renderer"},"debug_screen@common.base_screen":{"send_telemetry":true,"screen_not_flushable":true,"render_game_behind":true,"is_showing_menu":true,"is_modal":true,"should_steal_mouse":true,"render_only_when_topmost":true,"screen_draws_last":true,"$screen_content":"debug_screen.special_render"}}

@@ -1,0 +1,1 @@
+用于子包文件夹，需在manifest.json中声明，本包的jiekou1是亮色模式，jiekou2是偏亮模式，jiekou3是偏暗模式，jiekou4是暗色模式

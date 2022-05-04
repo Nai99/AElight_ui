@@ -1,0 +1,10 @@
+{
+  "cubemap": {
+    "vertexShader": "shaders/cubemap.vsh",
+    "fragmentShader": "shaders/cubemap.fsh"
+  },
+  "sky": {
+    "vertexShader": "shaders/sky.vsh",
+    "fragmentShader": "shaders/sky.fsh"
+  }
+}

@@ -1,0 +1,4 @@
+1.请使用专业格式转化软件将音乐格式转化为.Ogg格式
+2.将音乐重命名为 menu1.ogg
+3.将其移动入 Magical_Dreams>sound>music>menu 文件夹里
+4.此项功能仅支持直接导入
