@@ -1,3 +1,0 @@
-1.请确认更改图片为PNG格式【建议为横屏图片】；
-2.将图片重命名为 profile_bg.png ；
-3.移动到subpacks>jiekou1/2/3/4>textures/ui文件夹里，对本材质包原图片进行替换

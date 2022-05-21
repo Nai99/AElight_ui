@@ -1,0 +1,9 @@
+world_section.json 世界选项
+auto_save_info_screen.json 保存世界动画
+chat_screen.json 聊天栏 (快速选择上下句)
+debug_screen.json 隐藏beta版顶部文字
+pause_screen.json 游戏内截屏
+play_screen.json 导入世界控件
+start_screen.json 静态背景，底部文字
+structure_editor_screen.json 结构方块UI
+pack_settings_screen 子包选择界面

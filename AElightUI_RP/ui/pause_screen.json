@@ -1,0 +1,1 @@
+{"namespace":"pause","the_icon_panel/stacked_column/take_screenshot_btn":{"modifications":[{"array_name":"bindings","operation":"remove","where":{"binding_name":"#show_club","binding_name_override":"#visible","binding_type":"global","binding_color":"$main_header_text_color"}}]}}

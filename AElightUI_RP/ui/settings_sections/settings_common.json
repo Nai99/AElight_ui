@@ -1,0 +1,48 @@
+{
+    "content_area": {
+        "type": "panel",
+        "offset": [
+            "-2px",
+            "21px"
+        ],
+        "size": [
+            "72% - 10px",
+            "100% - 19px"
+        ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "layer": 1
+    },
+    "selector_area": {
+        "type": "panel",
+        "offset": [
+            3,
+            "21px"
+        ],
+        "size": [
+            "28% - 4px",
+            "100% - 19px"
+        ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left"
+    },
+    "section_divider": {
+        "type": "image",
+        "offset": [
+            "50% + 2px",
+            0
+        ],
+        "size": [
+            "100%+20px",
+            "100%-2px"
+        ],
+        "alpha": 0.3,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "layer": 3,
+        "texture": "textures/ui/screen_background"
+    },
+    "screen_base@settings_common.dynamic_dialog_screen": {
+        "$dialog_content": "settings_common.dialog_content"
+    }
+}

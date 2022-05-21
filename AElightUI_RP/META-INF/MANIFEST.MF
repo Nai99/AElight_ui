@@ -1,0 +1,2741 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.5.0
+
+Name: LICENSE
+SHA1-Digest: qKEuaGfX7jnCHZsRqYQGYJm2+2s=
+
+Name: bug_pack_icon.png
+SHA1-Digest: OY0Cro+RuO3f4orvtgQ3JrAC2v4=
+
+Name: font/ascii_sga.png
+SHA1-Digest: CCfaGiCiecvntKNvUb3HqMRHeaQ=
+
+Name: font/default8.png
+SHA1-Digest: rLRm99EpNR6bVtJHSLb6UYj6qUs=
+
+Name: loading_messages.json
+SHA1-Digest: v/YXzKjd7TEFulIvpP1HfDLbeIs=
+
+Name: manifest.json
+SHA1-Digest: rftdOPY7HONmJcXkkwtwu6QkCas=
+
+Name: materials/sky.material
+SHA1-Digest: gIy5pDbSMDRjyx97YUpv0CbWBlg=
+
+Name: models/entity/npc.geo.json
+SHA1-Digest: RIZPlWAPzlnIfrh2/GLU+rmMHVQ=
+
+Name: pack_icon.png
+SHA1-Digest: rq5poJHnHLis5Hdy/QpIieZL8B0=
+
+Name: shaders/glsl/config.h
+SHA1-Digest: bl98RxsKlfPr4ABWsoLm8ZbtnEY=
+
+Name: shaders/glsl/cubemap.fsh
+SHA1-Digest: Bl9O6dfy+1a16FUGhzJ6geANrbs=
+
+Name: shaders/glsl/cubemap.vsh
+SHA1-Digest: sx2/AAz1W+2NxcChXqHrpER9AqE=
+
+Name: shaders/glsl/noise.h
+SHA1-Digest: hEXUyd1ZwYbM6rrwa790fieGieY=
+
+Name: shaders/glsl/sky.vertex
+SHA1-Digest: 1rEDsdot7485E6xs/lfl9CfVbhk=
+
+Name: shaders/glsl/stars.vertex
+SHA1-Digest: lor+pGpC980ZH+bXY3rVlwE4KxM=
+
+Name: sounds/damage/hit1.ogg
+SHA1-Digest: VoT8gJtcO2cewKIw/F0dAPCF44s=
+
+Name: sounds/damage/hit2.ogg
+SHA1-Digest: dBmViOrX8X/xDI3ofD0g+oRCwNE=
+
+Name: sounds/damage/hit3.ogg
+SHA1-Digest: iaZHA7U+FcURX/12EIE/4wprjLA=
+
+Name: sounds/damage/hit4.ogg
+SHA1-Digest: iaZHA7U+FcURX/12EIE/4wprjLA=
+
+Name: sounds/music/menu/menu1.ogg
+SHA1-Digest: SVwBfMkw2/RbdKVb4cMbG126DHw=
+
+Name: sounds/portal/travel.ogg
+SHA1-Digest: pYTymwxiMke1+tIhIecWIdGpRrk=
+
+Name: sounds/random/bow.ogg
+SHA1-Digest: t1MWd9R/SGqO/7LrS0A8dbP8qPg=
+
+Name: sounds/random/chestopen.ogg
+SHA1-Digest: tK/kDQC7ysA1pBd8ZAERwSD6GoU=
+
+Name: sounds/random/click.ogg
+SHA1-Digest: rQDl9+hPlf4mF0AmPvaxf9jIcug=
+
+Name: sounds/random/eat1.ogg
+SHA1-Digest: KyHTooFL6aEMMbsggrwAKpL1eFg=
+
+Name: sounds/random/eat2.ogg
+SHA1-Digest: B53w2Af1Vp9rkqtgJ87UeqPyw2c=
+
+Name: sounds/random/eat3.ogg
+SHA1-Digest: 2NlHmH/TY0yQOrcDmRXvmZ5aUuY=
+
+Name: sounds/random/explode1.ogg
+SHA1-Digest: CKxEiByGHvwvS/VID1KJaDMq6bA=
+
+Name: sounds/random/explode2.ogg
+SHA1-Digest: CKxEiByGHvwvS/VID1KJaDMq6bA=
+
+Name: sounds/random/explode3.ogg
+SHA1-Digest: CKxEiByGHvwvS/VID1KJaDMq6bA=
+
+Name: sounds/random/explode4.ogg
+SHA1-Digest: CKxEiByGHvwvS/VID1KJaDMq6bA=
+
+Name: sounds/random/fizz.ogg
+SHA1-Digest: g03CYASA36DGsNGfZLssdvEO1ds=
+
+Name: sounds/random/fuse.ogg
+SHA1-Digest: g03CYASA36DGsNGfZLssdvEO1ds=
+
+Name: sounds/random/orb.ogg
+SHA1-Digest: BlNwoca6Rxw5XTLVWjS41GRwA5k=
+
+Name: sounds/random/pop.ogg
+SHA1-Digest: cmsgcwnMp/rs5mmoalFu215wKx8=
+
+Name: sounds/random/splash.ogg
+SHA1-Digest: CIOGYja2eTy+cqVdmjwNgxsKKUg=
+
+Name: splashes.json
+SHA1-Digest: rQbD4Ea44CaHJ9A30SxEhCUXWLM=
+
+Name: subpacks/jiekou1/textures/ui/button_borderless_light.png
+SHA1-Digest: 2ejHBC4oOZE9qUKGZcaapjLJREg=
+
+Name: subpacks/jiekou1/textures/ui/control.png
+SHA1-Digest: W1X27W9suHYyPIdYNWsZgfv/EBI=
+
+Name: subpacks/jiekou1/textures/ui/panorama_overlay.png
+SHA1-Digest: c8ulbMAjUBKFgLlcgB1eDApVATk=
+
+Name: subpacks/jiekou1/textures/ui/profile_bg.png
+SHA1-Digest: J66rnEJfdjU22P15aGc5NcbwLGA=
+
+Name: subpacks/jiekou2/textures/ui/TabTopBack.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopBackLeftMost.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopBackRightMost.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopBackRightMostDark.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopFront.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopFrontLeftMost.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TabTopFrontRightMost.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/TopFrontLeftMost.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: subpacks/jiekou2/textures/ui/button_borderless_darkhover.png
+SHA1-Digest: /N6ZY0PanXi02qB4linczSo9jSw=
+
+Name: subpacks/jiekou2/textures/ui/button_borderless_darkpressed.png
+SHA1-Digest: Er51Q0fLyHmGFtpd5ee/Il04rB4=
+
+Name: subpacks/jiekou2/textures/ui/button_borderless_light.png
+SHA1-Digest: /gA3+65jSUhqNrHTVKkW8X4L9x8=
+
+Name: subpacks/jiekou2/textures/ui/button_borderless_lighthover.png
+SHA1-Digest: /N6ZY0PanXi02qB4linczSo9jSw=
+
+Name: subpacks/jiekou2/textures/ui/button_borderless_lightpressed.png
+SHA1-Digest: Er51Q0fLyHmGFtpd5ee/Il04rB4=
+
+Name: subpacks/jiekou2/textures/ui/control.png
+SHA1-Digest: UYiCu+z0A6V3B8VCRkQfnNPm6nQ=
+
+Name: subpacks/jiekou2/textures/ui/dropdown_background.png
+SHA1-Digest: 7wAas086CBqgE11RYw7F3EfWANk=
+
+Name: subpacks/jiekou2/textures/ui/panorama_overlay.png
+SHA1-Digest: Pm6ChWXP9ncS+rYr1cBEciDi96U=
+
+Name: subpacks/jiekou2/textures/ui/profile_bg.png
+SHA1-Digest: Smf6kixPYnKgqIpSBHzDNLX1pOY=
+
+Name: subpacks/jiekou2/textures/ui/title.png
+SHA1-Digest: gnWj91O84SuBn2txO5W/q2Ec7dM=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_darkhover.png
+SHA1-Digest: UOjYZcO7Xu/Whmlp+SGKBwtnucw=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_darkpressed.png
+SHA1-Digest: LPnOV8x2OaiwCETNEXwC36FFAdg=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_light.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_lighthover.png
+SHA1-Digest: LPnOV8x2OaiwCETNEXwC36FFAdg=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_lightpressed.png
+SHA1-Digest: LPnOV8x2OaiwCETNEXwC36FFAdg=
+
+Name: subpacks/jiekou3/textures/ui/button_borderless_lightpressednohov
+ er.png
+SHA1-Digest: nSWWOlf/ymZTL7AYWaWn3AcejVQ=
+
+Name: subpacks/jiekou3/textures/ui/control.png
+SHA1-Digest: wLqUEK8UAPwWHLie4Sa7bMcoiFE=
+
+Name: subpacks/jiekou3/textures/ui/dialog_background_hollow_1.png
+SHA1-Digest: HeUNe0TypB0b+6d4oNrcj/mfN4w=
+
+Name: subpacks/jiekou3/textures/ui/dialog_background_hollow_2.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: subpacks/jiekou3/textures/ui/panorama_overlay.png
+SHA1-Digest: yGBFbZWr+lXylu53F/2n4T41laI=
+
+Name: subpacks/jiekou3/textures/ui/profile_bg.png
+SHA1-Digest: qTE7abVTPXi9E9q/pkARX1pyHmg=
+
+Name: subpacks/jiekou3/textures/ui/thin_dialog.png
+SHA1-Digest: LPnOV8x2OaiwCETNEXwC36FFAdg=
+
+Name: subpacks/jiekou3/textures/ui/title.png
+SHA1-Digest: +Ma8Mni4z0n9SHJQTHh7oi4dWb4=
+
+Name: subpacks/jiekou3/ui/_global_variables.json
+SHA1-Digest: 6yYGEdQaONHqIWu1GjbfSMr9DvU=
+
+Name: subpacks/jiekou4/textures/ui/Feedback.png
+SHA1-Digest: HmbQ4j0PnNYMm7ecALTZHscCPbo=
+
+Name: subpacks/jiekou4/textures/ui/NormalButtonNoStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/NormalButtonStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/NormalButtonThin.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/NormalButtonThinStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/TabTopBack.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopBackLeftMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopBackRightMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopBackRightMostDark.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopFront.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopFrontLeftMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/TabTopFrontRightMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/XTab.json
+SHA1-Digest: WAFAI6yp8WfHz0/gHCzMA88x6v0=
+
+Name: subpacks/jiekou4/textures/ui/XTab.png
+SHA1-Digest: G8KEU2k4xshHWELQPfTjD5ShvYo=
+
+Name: subpacks/jiekou4/textures/ui/accessibility_glyph_color.png
+SHA1-Digest: ikTo4UGHT2Vf6gJVZQxwMmqEtKs=
+
+Name: subpacks/jiekou4/textures/ui/achievements.png
+SHA1-Digest: 1+E24TOxqY26Hn1AAouu7/PtEF4=
+
+Name: subpacks/jiekou4/textures/ui/button_borderless_darkhover.png
+SHA1-Digest: CMdnfF3yT96bL0+jYmH+2g+sEPM=
+
+Name: subpacks/jiekou4/textures/ui/button_borderless_darkpressed.png
+SHA1-Digest: mwYuuDNm10hWbRSrsmjJ+x8j4OM=
+
+Name: subpacks/jiekou4/textures/ui/button_borderless_light.png
+SHA1-Digest: DhyK3Q5esZYpF2ykGzSl0ZT+rp4=
+
+Name: subpacks/jiekou4/textures/ui/button_borderless_lighthover.png
+SHA1-Digest: CMdnfF3yT96bL0+jYmH+2g+sEPM=
+
+Name: subpacks/jiekou4/textures/ui/button_borderless_lightpressed.png
+SHA1-Digest: mwYuuDNm10hWbRSrsmjJ+x8j4OM=
+
+Name: subpacks/jiekou4/textures/ui/camera-yo.png
+SHA1-Digest: +92IV7LkT4cE8fJD2ovQayLwFdU=
+
+Name: subpacks/jiekou4/textures/ui/cell_image.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou4/textures/ui/cell_image_invert.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou4/textures/ui/cell_image_normal.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou4/textures/ui/control.png
+SHA1-Digest: kW6JRKe1G3SROpP6zsl4ieDxvkM=
+
+Name: subpacks/jiekou4/textures/ui/controller_glyph_color.png
+SHA1-Digest: W44KklLOMZiTdc4EFTubvf/K2fM=
+
+Name: subpacks/jiekou4/textures/ui/copy.png
+SHA1-Digest: CaYEDrakF9b4gzUtraFyFc6pr5s=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_hollow_1.png
+SHA1-Digest: hDUdayqsNAes4JjYFl2hf9LWoPQ=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_hollow_3.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_hollow_4.png
+SHA1-Digest: kW6JRKe1G3SROpP6zsl4ieDxvkM=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_hollow_5.png
+SHA1-Digest: NAa1KxAbFE1sv+2WNuZKcviR11Y=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_hollow_6.png
+SHA1-Digest: Zn4LK+6guFaAnHBVds/oFe6WeaQ=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_opaque.png
+SHA1-Digest: SGDMAtLxYpZPDUqcLsy1+AWWmNo=
+
+Name: subpacks/jiekou4/textures/ui/dialog_background_opaque_overlap_bo
+ ttom.png
+SHA1-Digest: U5WFgCdktGAI6XoUJQs9Cjcy+lg=
+
+Name: subpacks/jiekou4/textures/ui/dropdown_background.png
+SHA1-Digest: 7wAas086CBqgE11RYw7F3EfWANk=
+
+Name: subpacks/jiekou4/textures/ui/gear.png
+SHA1-Digest: 1lg7dxQeqmEy0iCTMCB3Ee4pW/A=
+
+Name: subpacks/jiekou4/textures/ui/greyBorder.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_0.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_1.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_2.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_3.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_4.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_5.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_6.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_7.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/hotbar_8.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou4/textures/ui/how_to_play_button_default.png
+SHA1-Digest: macHzxTFRBGDjQ5bKawS3zpTLp0=
+
+Name: subpacks/jiekou4/textures/ui/icon_trash.png
+SHA1-Digest: ee32mgoZ6us2yC87cIfCVuYQ6Zo=
+
+Name: subpacks/jiekou4/textures/ui/import.png
+SHA1-Digest: yhj9zA058PdVOPkpgRH4g1YQSf4=
+
+Name: subpacks/jiekou4/textures/ui/keyboard_and_mouse_glyph_color.png
+SHA1-Digest: swiyFyrRBVNInl2wTZ+DbUOSDIw=
+
+Name: subpacks/jiekou4/textures/ui/language_glyph_color.png
+SHA1-Digest: chA0mNEJt8eED9xMNv6U3kSfXKE=
+
+Name: subpacks/jiekou4/textures/ui/normal_stroke_button.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou4/textures/ui/panorama_0.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_1.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_2.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_3.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_4.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_5.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou4/textures/ui/panorama_overlay.png
+SHA1-Digest: 22NQimpxGeDwfwn3cvmiPm2Vj3s=
+
+Name: subpacks/jiekou4/textures/ui/pocket_ui_highlight_selected_slot.p
+ ng
+SHA1-Digest: b9KnThUrbsXk+y46PvwOYpcfINY=
+
+Name: subpacks/jiekou4/textures/ui/pocket_ui_highlight_slot.png
+SHA1-Digest: b9KnThUrbsXk+y46PvwOYpcfINY=
+
+Name: subpacks/jiekou4/textures/ui/profile_bg.png
+SHA1-Digest: Dw/NR/c1EMvloXLP3PASACh4C2w=
+
+Name: subpacks/jiekou4/textures/ui/profile_glyph_color.png
+SHA1-Digest: ItcR241/Faa1zkQnQK8Xpco1Kos=
+
+Name: subpacks/jiekou4/textures/ui/recipe_book_item_bg.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou4/textures/ui/servers.png
+SHA1-Digest: EZpiINiurxwNwNq/Z07n8hfi5Ws=
+
+Name: subpacks/jiekou4/textures/ui/sound_glyph_color.png
+SHA1-Digest: Mis3JIdGTrlEt1EyuMtZ0mJwd3Q=
+
+Name: subpacks/jiekou4/textures/ui/storageIconColor.png
+SHA1-Digest: iXrq5l3XjDhUoYWzhxWf54O7AVg=
+
+Name: subpacks/jiekou4/textures/ui/thin_dialog.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou4/textures/ui/title.png
+SHA1-Digest: NqDO45hks/+6GvV4774FFRKhnVo=
+
+Name: subpacks/jiekou4/textures/ui/touch_glyph_color.png
+SHA1-Digest: 9HmWjl9LcLrk79Tpk6AB0MNiLpY=
+
+Name: subpacks/jiekou4/textures/ui/video_glyph_color.png
+SHA1-Digest: AqAYWqwUeWnakjv6O9LCGpWg+h4=
+
+Name: subpacks/jiekou4/textures/ui/worldsIcon.png
+SHA1-Digest: HeZtSS19ExWjyCHS9AkackoIXlg=
+
+Name: subpacks/jiekou4/ui/_global_variables.json
+SHA1-Digest: EZlW0PegIxrBal/VmvblA93LRPE=
+
+Name: subpacks/jiekou5/textures/ui/Feedback.png
+SHA1-Digest: HmbQ4j0PnNYMm7ecALTZHscCPbo=
+
+Name: subpacks/jiekou5/textures/ui/NormalButtonNoStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/NormalButtonStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/NormalButtonThin.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/NormalButtonThinStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/TabTopBack.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopBackLeftMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopBackRightMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopBackRightMostDark.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopFront.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopFrontLeftMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/TabTopFrontRightMost.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/XTab.json
+SHA1-Digest: WAFAI6yp8WfHz0/gHCzMA88x6v0=
+
+Name: subpacks/jiekou5/textures/ui/XTab.png
+SHA1-Digest: G8KEU2k4xshHWELQPfTjD5ShvYo=
+
+Name: subpacks/jiekou5/textures/ui/accessibility_glyph_color.png
+SHA1-Digest: ikTo4UGHT2Vf6gJVZQxwMmqEtKs=
+
+Name: subpacks/jiekou5/textures/ui/achievements.png
+SHA1-Digest: 1+E24TOxqY26Hn1AAouu7/PtEF4=
+
+Name: subpacks/jiekou5/textures/ui/button_borderless_light.png
+SHA1-Digest: vY0HLbBXnNHzT944jxeudNaGoLE=
+
+Name: subpacks/jiekou5/textures/ui/button_borderless_lightpressednohov
+ er.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/camera-yo.png
+SHA1-Digest: +92IV7LkT4cE8fJD2ovQayLwFdU=
+
+Name: subpacks/jiekou5/textures/ui/cell_image.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou5/textures/ui/cell_image_invert.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou5/textures/ui/cell_image_normal.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou5/textures/ui/control.png
+SHA1-Digest: gxgfUd2UhiNjoBuFiV9qZPoKlKo=
+
+Name: subpacks/jiekou5/textures/ui/controller_glyph_color.png
+SHA1-Digest: W44KklLOMZiTdc4EFTubvf/K2fM=
+
+Name: subpacks/jiekou5/textures/ui/copy.png
+SHA1-Digest: CaYEDrakF9b4gzUtraFyFc6pr5s=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_hollow_1.png
+SHA1-Digest: d7cAldCpZGsRN5aaip+OeD+SORM=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_hollow_3.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_hollow_4.png
+SHA1-Digest: FuuIqb2XrHQMJXGj+jHQb7pL7Lw=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_hollow_5.png
+SHA1-Digest: UJYg2ZCjPpls9ZQGs7acOJWDKvc=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_hollow_6.png
+SHA1-Digest: nj6tfM+0kzS8DK3l4ARU3Qk2nlk=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_opaque.png
+SHA1-Digest: JMcljByMqBQUYlMbUspVM0jb5J0=
+
+Name: subpacks/jiekou5/textures/ui/dialog_background_opaque_overlap_bo
+ ttom.png
+SHA1-Digest: U5WFgCdktGAI6XoUJQs9Cjcy+lg=
+
+Name: subpacks/jiekou5/textures/ui/dropdown_background.png
+SHA1-Digest: 7wAas086CBqgE11RYw7F3EfWANk=
+
+Name: subpacks/jiekou5/textures/ui/gear.png
+SHA1-Digest: 1lg7dxQeqmEy0iCTMCB3Ee4pW/A=
+
+Name: subpacks/jiekou5/textures/ui/greyBorder.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_0.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_1.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_2.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_3.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_4.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_5.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_6.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_7.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/hotbar_8.png
+SHA1-Digest: VnObDbCKK+E96DP7qIYFmSI97ao=
+
+Name: subpacks/jiekou5/textures/ui/how_to_play_button_default.png
+SHA1-Digest: macHzxTFRBGDjQ5bKawS3zpTLp0=
+
+Name: subpacks/jiekou5/textures/ui/icon_trash.png
+SHA1-Digest: ee32mgoZ6us2yC87cIfCVuYQ6Zo=
+
+Name: subpacks/jiekou5/textures/ui/import.png
+SHA1-Digest: yhj9zA058PdVOPkpgRH4g1YQSf4=
+
+Name: subpacks/jiekou5/textures/ui/keyboard_and_mouse_glyph_color.png
+SHA1-Digest: swiyFyrRBVNInl2wTZ+DbUOSDIw=
+
+Name: subpacks/jiekou5/textures/ui/language_glyph_color.png
+SHA1-Digest: chA0mNEJt8eED9xMNv6U3kSfXKE=
+
+Name: subpacks/jiekou5/textures/ui/normal_stroke_button.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: subpacks/jiekou5/textures/ui/panorama_0.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_1.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_2.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_3.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_4.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_5.png
+SHA1-Digest: Fv/3dn3OSqreH90sEGZOISN2xWI=
+
+Name: subpacks/jiekou5/textures/ui/panorama_overlay.png
+SHA1-Digest: p3HARocHLykZ1OlVTrLx1BrzOWg=
+
+Name: subpacks/jiekou5/textures/ui/pocket_ui_highlight_selected_slot.p
+ ng
+SHA1-Digest: b9KnThUrbsXk+y46PvwOYpcfINY=
+
+Name: subpacks/jiekou5/textures/ui/pocket_ui_highlight_slot.png
+SHA1-Digest: b9KnThUrbsXk+y46PvwOYpcfINY=
+
+Name: subpacks/jiekou5/textures/ui/profile_bg.png
+SHA1-Digest: eNnerP0hzEg72nORbE7UeRhfs/A=
+
+Name: subpacks/jiekou5/textures/ui/profile_glyph_color.png
+SHA1-Digest: ItcR241/Faa1zkQnQK8Xpco1Kos=
+
+Name: subpacks/jiekou5/textures/ui/recipe_book_item_bg.png
+SHA1-Digest: x5J7VO9xt4nds29P9dWbP3CVMe0=
+
+Name: subpacks/jiekou5/textures/ui/servers.png
+SHA1-Digest: EZpiINiurxwNwNq/Z07n8hfi5Ws=
+
+Name: subpacks/jiekou5/textures/ui/sound_glyph_color.png
+SHA1-Digest: Mis3JIdGTrlEt1EyuMtZ0mJwd3Q=
+
+Name: subpacks/jiekou5/textures/ui/storageIconColor.png
+SHA1-Digest: iXrq5l3XjDhUoYWzhxWf54O7AVg=
+
+Name: subpacks/jiekou5/textures/ui/thin_dialog.png
+SHA1-Digest: VjlSfk7O5MNBC0YpK4osj++HoQ4=
+
+Name: subpacks/jiekou5/textures/ui/touch_glyph_color.png
+SHA1-Digest: 9HmWjl9LcLrk79Tpk6AB0MNiLpY=
+
+Name: subpacks/jiekou5/textures/ui/video_glyph_color.png
+SHA1-Digest: AqAYWqwUeWnakjv6O9LCGpWg+h4=
+
+Name: subpacks/jiekou5/textures/ui/worldsIcon.png
+SHA1-Digest: HeZtSS19ExWjyCHS9AkackoIXlg=
+
+Name: subpacks/jiekou5/ui/_global_variables.json
+SHA1-Digest: EZlW0PegIxrBal/VmvblA93LRPE=
+
+Name: texts/language_names.json
+SHA1-Digest: QdR2AOdunvbIbP2qS49evN151fQ=
+
+Name: texts/zh_CN.lang
+SHA1-Digest: n4vLmK7Z0aCYEgp4+jcodnUca0Q=
+
+Name: texts/zh_TW.lang
+SHA1-Digest: iofR2qDtkonCsoBK2RgO/ILUUS4=
+
+Name: textures/blocks/bubble_column_down_top_a.png
+SHA1-Digest: OoZRj2u2aLNYKM5nNYgFMZdWkrQ=
+
+Name: textures/blocks/bubble_column_down_top_b.png
+SHA1-Digest: OoZRj2u2aLNYKM5nNYgFMZdWkrQ=
+
+Name: textures/blocks/bubble_column_down_top_c.png
+SHA1-Digest: OoZRj2u2aLNYKM5nNYgFMZdWkrQ=
+
+Name: textures/blocks/bubble_column_down_top_d.png
+SHA1-Digest: OoZRj2u2aLNYKM5nNYgFMZdWkrQ=
+
+Name: textures/blocks/bubble_column_up_top_a.png
+SHA1-Digest: AXDS3iKRlM8tE/S5CnBq8YBIs9w=
+
+Name: textures/blocks/bubble_column_up_top_b.png
+SHA1-Digest: AXDS3iKRlM8tE/S5CnBq8YBIs9w=
+
+Name: textures/blocks/bubble_column_up_top_c.png
+SHA1-Digest: AXDS3iKRlM8tE/S5CnBq8YBIs9w=
+
+Name: textures/blocks/bubble_column_up_top_d.png
+SHA1-Digest: AXDS3iKRlM8tE/S5CnBq8YBIs9w=
+
+Name: textures/blocks/coal_ore.png
+SHA1-Digest: HdPX/81/BVGLzwrkt+0fFny6HnA=
+
+Name: textures/blocks/diamond_ore.png
+SHA1-Digest: Y8sPNQfSEkpUcbgVUrWjvYhxWWQ=
+
+Name: textures/blocks/emerald_ore.png
+SHA1-Digest: Fw63BmyOmYz9TQ/mb2JhTVS/O1o=
+
+Name: textures/blocks/fire_0.png
+SHA1-Digest: gc/OB/vGPnGZ1djcvFpxo5RZzf8=
+
+Name: textures/blocks/gold_ore.png
+SHA1-Digest: 0/x52W+0yos1W7q0H29OLs4ClBc=
+
+Name: textures/blocks/iron_ore.png
+SHA1-Digest: W4+j+K13HZ1+2iYNJ6B9q1/Xs3c=
+
+Name: textures/blocks/lantern.png
+SHA1-Digest: jnRyz/6FFG1b6mL9O+KpS3mu2+Q=
+
+Name: textures/blocks/lapis_ore.png
+SHA1-Digest: hfGEOQRbcpBGffLZMy+0ZzTxMMg=
+
+Name: textures/blocks/leaves_acacia.png
+SHA1-Digest: UTRW82hAt76Z/C/1GWOkDputohY=
+
+Name: textures/blocks/leaves_acacia_carried.png
+SHA1-Digest: //zTDt7tYMJaV7hDrmnWQBnJmj8=
+
+Name: textures/blocks/leaves_acacia_opaque.png
+SHA1-Digest: //zTDt7tYMJaV7hDrmnWQBnJmj8=
+
+Name: textures/blocks/leaves_birch.png
+SHA1-Digest: McCycuYK008iHRPzFJ/CotOd4j8=
+
+Name: textures/blocks/leaves_birch_carried.png
+SHA1-Digest: McCycuYK008iHRPzFJ/CotOd4j8=
+
+Name: textures/blocks/leaves_birch_opaque.png
+SHA1-Digest: McCycuYK008iHRPzFJ/CotOd4j8=
+
+Name: textures/blocks/log_birch.png
+SHA1-Digest: 3WQav8xmSJ+ITmn/0lZ0GOHIhmA=
+
+Name: textures/blocks/log_birch_top.png
+SHA1-Digest: MoZvxmrIxzu3Fw5bPAWtD0KuIek=
+
+Name: textures/blocks/missing_tile.png
+SHA1-Digest: VcBP0qBMNs0UAjlSXJy+takCwlw=
+
+Name: textures/blocks/mushroom_block_skin_red.png
+SHA1-Digest: jIpDP+qI7piZzEgFJoZxUGdt6xo=
+
+Name: textures/blocks/portal.png
+SHA1-Digest: mdJTOTtcWTwWwswLNv8ITONUsEs=
+
+Name: textures/blocks/portal_placeholder.png
+SHA1-Digest: fcu8+LQeMP45cS6daEMFU+hgr1w=
+
+Name: textures/blocks/redstone_ore.png
+SHA1-Digest: bg0DwPu8tl1psyspZ6+tg8CoMSg=
+
+Name: textures/blocks/sapling_acacia.png
+SHA1-Digest: UGZH30Wew5QyTkUqrL4oFFFEleo=
+
+Name: textures/blocks/sapling_birch.png
+SHA1-Digest: 5yd7iU1WlKgqj/+EDjKtEgWAvsk=
+
+Name: textures/blocks/tnt_side.png
+SHA1-Digest: WvMS06O3hsoq1k2EASQ+UwbK3jQ=
+
+Name: textures/blocks/water_flow.png
+SHA1-Digest: mQYjAv6KdUCOE0pnK5OjViiX+Fo=
+
+Name: textures/blocks/water_flow_grey.png
+SHA1-Digest: eUE8tdvDik9ObGvjYWryVhMFZrM=
+
+Name: textures/blocks/water_placeholder.png
+SHA1-Digest: q0G6maaWAtAjaXVX/Y34zt0/Ry4=
+
+Name: textures/blocks/water_still.png
+SHA1-Digest: NyKR44B7VStpShZuPKAoKwfq6tw=
+
+Name: textures/blocks/water_still_grey.png
+SHA1-Digest: 7oJ2QDMuTNxdK/hbWZcLRt8iz+4=
+
+Name: textures/blocks/waterlily.png
+SHA1-Digest: gRfVlnNbukSN605Uz+mgIpj7sIg=
+
+Name: textures/blocks/web.png
+SHA1-Digest: 5fqkA8SDDOnkfQ31XSQII49lS98=
+
+Name: textures/colormap/birch.png
+SHA1-Digest: q3noVWdnJMXTBPKrrtGrWI2KZ2A=
+
+Name: textures/colormap/evergreen.png
+SHA1-Digest: qUPQINdWgQeZiyYuae8jkZhv0wY=
+
+Name: textures/colormap/foliage.png
+SHA1-Digest: tGTx5jO/XY053HQu1PlMteekJTw=
+
+Name: textures/colormap/grass.png
+SHA1-Digest: 33eTwQ4Vz8SybYLJuzNOqCCQXRA=
+
+Name: textures/colormap/swamp_foliage.png
+SHA1-Digest: KLvZd4HW4HY1OgnNrx6Bw7Pb2sc=
+
+Name: textures/colormap/swamp_grass.png
+SHA1-Digest: Ju0BMZP9Bdctn1j0RPqR5DIvqME=
+
+Name: textures/entity/arrows.png
+SHA1-Digest: CIR+EDfhDDigAiiw9dZQj1kqHgk=
+
+Name: textures/entity/beacon_beam.png
+SHA1-Digest: CRBqAthXVi2l9reB/lzjUGqhqM0=
+
+Name: textures/entity/shield.png
+SHA1-Digest: gVSmdgj8F5/dABbEOv+IriR4AwY=
+
+Name: textures/environment/clouds.png
+SHA1-Digest: HRqHitF3UkUdbqR3LRMbCxxg1as=
+
+Name: textures/environment/destroy_stage_0.png
+SHA1-Digest: CzNqTgG3H4BgR5E39gIshFjspM0=
+
+Name: textures/environment/destroy_stage_1.png
+SHA1-Digest: VlbBaxnLVS17FvHO+ztLp7mXrvA=
+
+Name: textures/environment/destroy_stage_2.png
+SHA1-Digest: 1Bq0t+xJuCp8pwEG6NtmPORzm9U=
+
+Name: textures/environment/destroy_stage_3.png
+SHA1-Digest: YONq+WBaCK1ljMq5TuE59xFR+pM=
+
+Name: textures/environment/destroy_stage_4.png
+SHA1-Digest: pfYt6WL5LKBKwTMbkj3kcMFbYQc=
+
+Name: textures/environment/destroy_stage_5.png
+SHA1-Digest: ZjuPs3GfZmYFlsBPx4WgtFqgGKw=
+
+Name: textures/environment/destroy_stage_6.png
+SHA1-Digest: 264mkIyWRzJeN3yEOQZbVRiQBOg=
+
+Name: textures/environment/destroy_stage_7.png
+SHA1-Digest: ciKE6lFcmrdcR06QVD5CJLylCHE=
+
+Name: textures/environment/destroy_stage_8.png
+SHA1-Digest: ZCXu8ZJwe4KN+YpPkhdcOUzQiNI=
+
+Name: textures/environment/destroy_stage_9.png
+SHA1-Digest: C0SjnqZkmMLG3DtTaY6Lv23LdWo=
+
+Name: textures/environment/end_portal_colors.png
+SHA1-Digest: zxoysmbRIqIflasBxpEQrNNEJeg=
+
+Name: textures/environment/end_sky.png
+SHA1-Digest: q3noVWdnJMXTBPKrrtGrWI2KZ2A=
+
+Name: textures/environment/moon_phases.png
+SHA1-Digest: erCsieTDYMTvAQnNshVLqmv5WtI=
+
+Name: textures/environment/overworld_cubemap/cubemap_0.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/overworld_cubemap/cubemap_1.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/overworld_cubemap/cubemap_2.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/overworld_cubemap/cubemap_3.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/overworld_cubemap/cubemap_4.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/overworld_cubemap/cubemap_5.png
+SHA1-Digest: bVpXA5crWD/Sa8gP5S9Rqr1QazY=
+
+Name: textures/environment/sun.png
+SHA1-Digest: yR9zBAElU2hFrJnrg5kut1x9pIY=
+
+Name: textures/environment/weather.png
+SHA1-Digest: W7E8gvwG6AxsdKIWAz5zppRXXjI=
+
+Name: textures/gui/gui.png
+SHA1-Digest: 5VzC7gxFG37rfskfvSuy1oFPpM0=
+
+Name: textures/gui/icons.png
+SHA1-Digest: uQPmgozzf6HHPvvPYBzIiEAaOxo=
+
+Name: textures/gui/newgui/TopBar.png
+SHA1-Digest: sBZciy9GnQq12Kf+UaX9ZWKDymI=
+
+Name: textures/gui/newgui/buttons/border/base.png
+SHA1-Digest: Y7SOb+B1pZXoIi6U8jELbfEUgXY=
+
+Name: textures/gui/newgui/buttons/border/basePress.png
+SHA1-Digest: Y7SOb+B1pZXoIi6U8jELbfEUgXY=
+
+Name: textures/gui/newgui/buttons/border/hover.png
+SHA1-Digest: HdawSFT5O+POQo3hzJd7sKfOnGY=
+
+Name: textures/gui/newgui/buttons/border/hoverPress.png
+SHA1-Digest: HdawSFT5O+POQo3hzJd7sKfOnGY=
+
+Name: textures/gui/newgui/buttons/borderless/dark.png
+SHA1-Digest: SYCJAT6uM6zsp8p9ZQG3alUt/hw=
+
+Name: textures/gui/newgui/buttons/borderless/darkhover.png
+SHA1-Digest: /eOXb8Lety2qpUnj1RhwWpb6PcY=
+
+Name: textures/gui/newgui/buttons/borderless/darkpressed.png
+SHA1-Digest: /eOXb8Lety2qpUnj1RhwWpb6PcY=
+
+Name: textures/gui/newgui/buttons/borderless/darkpressednohover.png
+SHA1-Digest: upmJhxYzqksWUbN18sPLCuCukIU=
+
+Name: textures/gui/newgui/buttons/borderless/imagelesshoverbg.png
+SHA1-Digest: 1IouYIiUuneFOIU4MrMcJSFzJ4o=
+
+Name: textures/gui/newgui/buttons/borderless/light.png
+SHA1-Digest: RXOe6v6/sROtZV6tnEnfc9GY2OM=
+
+Name: textures/gui/newgui/buttons/borderless/lighthover.png
+SHA1-Digest: s3cnpJwuil7j/45/Qob54yxTX/w=
+
+Name: textures/gui/newgui/buttons/borderless/lightpressed.png
+SHA1-Digest: s3cnpJwuil7j/45/Qob54yxTX/w=
+
+Name: textures/gui/newgui/buttons/borderless/lightpressednohover.png
+SHA1-Digest: B6vfkhr6jYVxmkaFurusgl6D3eE=
+
+Name: textures/gui/newgui/buttons/new_checkbox/check.png
+SHA1-Digest: 7vOlaL8EAzskt7zxLBXP4uG66Ek=
+
+Name: textures/gui/newgui/buttons/new_checkbox/checkDisabled.png
+SHA1-Digest: 7vOlaL8EAzskt7zxLBXP4uG66Ek=
+
+Name: textures/gui/newgui/buttons/new_checkbox/checkHover.png
+SHA1-Digest: kaoIw9zrdm0QJVV2jH6SrvrBhQ4=
+
+Name: textures/gui/newgui/buttons/new_checkbox/space.png
+SHA1-Digest: qBJtB8yKRKz+KDkOmC4szSYgvfY=
+
+Name: textures/gui/newgui/buttons/new_checkbox/spaceDisabled.png
+SHA1-Digest: qBJtB8yKRKz+KDkOmC4szSYgvfY=
+
+Name: textures/gui/newgui/buttons/new_checkbox/spaceHover.png
+SHA1-Digest: M7qEt7IiTss6cq7UdNbF+wktk9c=
+
+Name: textures/gui/newgui/mob_effects/bad_omen_effect.png
+SHA1-Digest: fOBK9UpYcMqu5Hkjiyj9Qfuaa24=
+
+Name: textures/gui/newgui/mob_effects/blindness_effect.png
+SHA1-Digest: bRtqHHT6IE95HZkfyK5+n2cx354=
+
+Name: textures/gui/newgui/mob_effects/fire_resistance_effect.png
+SHA1-Digest: Uli1CLwyRFqVYjk6PmTKgWFw4j0=
+
+Name: textures/gui/newgui/mob_effects/haste_effect.png
+SHA1-Digest: RuHSHrjZ30oNjChAE68Hf9X5W9w=
+
+Name: textures/gui/newgui/mob_effects/hunger_effect.png
+SHA1-Digest: q341gFTEnZWLbw17FNBCCkU9pH8=
+
+Name: textures/gui/newgui/mob_effects/invisibility_effect.png
+SHA1-Digest: r3Hvo6maqSaSEYzsWG47FAhhmPM=
+
+Name: textures/gui/newgui/mob_effects/jump_boost_effect.png
+SHA1-Digest: IDsQjvDfG9z37KAAV5HJdp/zGXg=
+
+Name: textures/gui/newgui/mob_effects/levitation_effect.png
+SHA1-Digest: ABqic27mvfEyRduXLUZ4RpE7CpE=
+
+Name: textures/gui/newgui/mob_effects/mining_fatigue_effect.png
+SHA1-Digest: dQPuqsX4PZ1I1V/NrrVz1WvO8rA=
+
+Name: textures/gui/newgui/mob_effects/nausea_effect.png
+SHA1-Digest: 9jIUfiSRbdbxUT7e9hKFAGx7D8w=
+
+Name: textures/gui/newgui/mob_effects/night_vision_effect.png
+SHA1-Digest: ZoDCgfdxjvsBIUwz1vzMT7ABm8w=
+
+Name: textures/gui/newgui/mob_effects/poison_effect.png
+SHA1-Digest: TLgxB4IbjAJjYI2z+fNRAlu9z7w=
+
+Name: textures/gui/newgui/mob_effects/regeneration_effect.png
+SHA1-Digest: 6m9IgJ7R7NDbbupQoxPj17Q+teI=
+
+Name: textures/gui/newgui/mob_effects/resistance_effect.png
+SHA1-Digest: mq8XfJi/L4pEE6C4Ak+cRDmyg9I=
+
+Name: textures/gui/newgui/mob_effects/slowness_effect.png
+SHA1-Digest: vo1AWi7gIHL8wYlBMkGXvpkcG08=
+
+Name: textures/gui/newgui/mob_effects/speed_effect.png
+SHA1-Digest: KHzQBrxXiqrL+gPbXO6HgJVaAzw=
+
+Name: textures/gui/newgui/mob_effects/strength_effect.png
+SHA1-Digest: KA7fJtRBhvBA9UE6oNy7PbG+4IY=
+
+Name: textures/gui/newgui/mob_effects/village_hero_effect.png
+SHA1-Digest: ymdYyfeefdTBM3KUm8Oy8zqciYY=
+
+Name: textures/gui/newgui/mob_effects/water_breathing_effect.png
+SHA1-Digest: UMOxksKRRpQRkPO6z8cDU2Lm6Dg=
+
+Name: textures/gui/newgui/mob_effects/weakness_effect.png
+SHA1-Digest: 0AZrwFjsCVp183ky4Zc8t6SYyLA=
+
+Name: textures/gui/newgui/mob_effects/wither_effect.png
+SHA1-Digest: YJjyK5QExBFQwczoG6y+NN0Tn5c=
+
+Name: textures/item/arrows.png
+SHA1-Digest: CIR+EDfhDDigAiiw9dZQj1kqHgk=
+
+Name: textures/item/sign.png
+SHA1-Digest: DpIepeRBc7gFPtk3qQw3Rl4u1JE=
+
+Name: textures/items/broken_elytra.png
+SHA1-Digest: abWR9mat7I33NFqSoWIu8GOzIKU=
+
+Name: textures/items/elytra.png
+SHA1-Digest: zHsnVEKPHkn6qDXQpMEy8IFnrwE=
+
+Name: textures/items/empty_armor_slot_boots.png
+SHA1-Digest: Cbj91QzzNKU20DNdf4txrmNV0AE=
+
+Name: textures/items/empty_armor_slot_chestplate.png
+SHA1-Digest: 9pJ4mg1X8k6cJdyvbqKg3veGsms=
+
+Name: textures/items/empty_armor_slot_helmet.png
+SHA1-Digest: wbAqZ4s3YhCU7pYN+0Tt5p8v1QU=
+
+Name: textures/items/empty_armor_slot_leggings.png
+SHA1-Digest: 1nuiNoOtjO6Af797g2tBgK/TKTk=
+
+Name: textures/items/empty_armor_slot_shield.png
+SHA1-Digest: oX3RlUY6JlZcPBv+O/ikccr/p08=
+
+Name: textures/items/nether_star.png
+SHA1-Digest: rXzqHn2Dosu5lkkOaWDPgg8PCSA=
+
+Name: textures/map/map_background.png
+SHA1-Digest: Z7oq0bkUvfmTovNPvoacCku9B7s=
+
+Name: textures/misc/enchanted_item_glint.png
+SHA1-Digest: 7aHhQUe7M1Iya17yePdUjxYYKUs=
+
+Name: textures/misc/pumpkinblur.png
+SHA1-Digest: TfU9ANFjvoQ1RvxS8VGU1JNnz5Y=
+
+Name: textures/models/armor/elytra.png
+SHA1-Digest: +4Y1jywEsXUi4E9eEimqhAzggtY=
+
+Name: textures/painting/kz.png
+SHA1-Digest: sziG+1cuuFYh6XB1MBpXL6UM34o=
+
+Name: textures/particle/campfire_smoke.png
+SHA1-Digest: jwqh+CmosjizwzldaaYhkrYwyaw=
+
+Name: textures/particle/particles.png
+SHA1-Digest: voRFcJFtNMH3762mZ1sZ/dxy2GM=
+
+Name: textures/ui/Banners.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/BannersLight.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/Black.png
+SHA1-Digest: pEVtew+LfZiBpLKUFcNpveRi6b8=
+
+Name: textures/ui/Blacks.png
+SHA1-Digest: pEVtew+LfZiBpLKUFcNpveRi6b8=
+
+Name: textures/ui/Caution.png
+SHA1-Digest: a03fat8PWLpIyAAQHfl/pB7fafw=
+
+Name: textures/ui/CreateNewWorld.png
+SHA1-Digest: mzZknsxqg6Ym9Rr3TbEMbYch4G0=
+
+Name: textures/ui/DarkBannerNoBorder.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/Feedback.png
+SHA1-Digest: Lq+zCo+VZ1fjdf9pkVXgItn7LoM=
+
+Name: textures/ui/Friend1.png
+SHA1-Digest: 85OWtmIYKbxUTN23hIch92wr25k=
+
+Name: textures/ui/Friend2.png
+SHA1-Digest: gotJBtQDnSPcfZ4P4MvDUzJQUFM=
+
+Name: textures/ui/FriendsDiversity.png
+SHA1-Digest: OUZOpnaBIrrQgnTmpOjvJSfOt3Y=
+
+Name: textures/ui/FriendsIcon.png
+SHA1-Digest: XqrlZq3wBKPv02iKv0QS0MjwX50=
+
+Name: textures/ui/Gray.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/Grey.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/HowToPlayDivider.png
+SHA1-Digest: AIJu7rGydp1lCPdoy5qnDEEeBzY=
+
+Name: textures/ui/LoadingWorldDemoScreen.png
+SHA1-Digest: 5NBi3phqkUjsiWD5qCWgWl5DUbI=
+
+Name: textures/ui/MCoin.png
+SHA1-Digest: lWC0Xvygjwqrnj4Q+sVb/Vyv4SM=
+
+Name: textures/ui/MainBanners.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/MainBannersHover.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/New_confirm_Hover.png
+SHA1-Digest: Ycgp0MGPJMR5s3pgXT8qDpbjSMk=
+
+Name: textures/ui/NormalButtonNoStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: textures/ui/NormalButtonStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: textures/ui/NormalButtonThin.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: textures/ui/NormalButtonThinStroke.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: textures/ui/Rotate.png
+SHA1-Digest: qLpuyKJVnCmYyapKhdAYy3Kc/CA=
+
+Name: textures/ui/ScrollBox.png
+SHA1-Digest: xyvS5KTACAUwuCSAEBmyhwffdI8=
+
+Name: textures/ui/ScrollGutterWithBG.png
+SHA1-Digest: pARHhAdLcrIrcnQxHk+SfMHJkYE=
+
+Name: textures/ui/ScrollHandle.png
+SHA1-Digest: 35/VSOWzt502TgM1sIgcYsA+q4s=
+
+Name: textures/ui/ScrollRail.png
+SHA1-Digest: sjNj0Frx2pJ1UYJ5XKSqOoi2Wzw=
+
+Name: textures/ui/StoreTopBar.png
+SHA1-Digest: 35/VSOWzt502TgM1sIgcYsA+q4s=
+
+Name: textures/ui/StoreTopBarFiller.png
+SHA1-Digest: biaqmOSbcmpzHiD8UP1nHXOpZNk=
+
+Name: textures/ui/TabLeftBack.png
+SHA1-Digest: ejdGFN8kEgQJ5W4y/dwENwq82Mk=
+
+Name: textures/ui/TabLeftBackBottomMost.png
+SHA1-Digest: ejdGFN8kEgQJ5W4y/dwENwq82Mk=
+
+Name: textures/ui/TabLeftBackBottomMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabLeftBackHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabLeftBackTopMost.png
+SHA1-Digest: ejdGFN8kEgQJ5W4y/dwENwq82Mk=
+
+Name: textures/ui/TabLeftBackTopMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabLeftFront.png
+SHA1-Digest: DZF8CaRlepxMVBaX1rormMugew0=
+
+Name: textures/ui/TabLeftFrontBottomMost.png
+SHA1-Digest: DZF8CaRlepxMVBaX1rormMugew0=
+
+Name: textures/ui/TabLeftFrontBottomMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabLeftFrontHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabLeftFrontTopMost.png
+SHA1-Digest: DZF8CaRlepxMVBaX1rormMugew0=
+
+Name: textures/ui/TabLeftFrontTopMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightBack.png
+SHA1-Digest: gXbpNu8zhkspVLaPsEKhi1CvMxA=
+
+Name: textures/ui/TabRightBackBottomMost.png
+SHA1-Digest: gXbpNu8zhkspVLaPsEKhi1CvMxA=
+
+Name: textures/ui/TabRightBackBottomMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightBackHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightBackTopMost.png
+SHA1-Digest: gXbpNu8zhkspVLaPsEKhi1CvMxA=
+
+Name: textures/ui/TabRightBackTopMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightFront.png
+SHA1-Digest: gXbpNu8zhkspVLaPsEKhi1CvMxA=
+
+Name: textures/ui/TabRightFrontBottomMost.png
+SHA1-Digest: gXbpNu8zhkspVLaPsEKhi1CvMxA=
+
+Name: textures/ui/TabRightFrontBottomMostHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightFrontHover.png
+SHA1-Digest: +IX0NDJ5XumITl+6p6hkX6GytUo=
+
+Name: textures/ui/TabRightFrontTopMost.png
+SHA1-Digest: iiu31CREHwH62OW4qn7GORjunWk=
+
+Name: textures/ui/TabRightFrontTopMostHover.png
+SHA1-Digest: ym9viS87lAAMS8azDOOhILADMEw=
+
+Name: textures/ui/TabTopBack.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopBackHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopBackLeftMost.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopBackLeftMostHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopBackRightMost.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopBackRightMostDark.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopBackRightMostDarkHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopBackRightMostHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopFront.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopFrontHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopFrontLeftMost.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopFrontLeftMostHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/TabTopFrontRightMost.png
+SHA1-Digest: YgVI5x1qoN6P6V0eL3SppOK7B18=
+
+Name: textures/ui/TabTopFrontRightMostHover.png
+SHA1-Digest: htR4IhZ2J6rpeYC7QVuByijp1bI=
+
+Name: textures/ui/ThinPlus.png
+SHA1-Digest: fPwpvb/ISCjmYLmvL6+/XMinwdI=
+
+Name: textures/ui/White.png
+SHA1-Digest: jYXpM1euDE8+5BAHEE1XLQjfhEk=
+
+Name: textures/ui/XTab.png
+SHA1-Digest: G8KEU2k4xshHWELQPfTjD5ShvYo=
+
+Name: textures/ui/absorption_effect.png
+SHA1-Digest: KVT8mhlx3y9dLlrwFGWG2E+L6sM=
+
+Name: textures/ui/accessibility_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/accessibility_glyph_color.png
+SHA1-Digest: RsUJ8mcbHs3g5EGmvqMHVE3gjLQ=
+
+Name: textures/ui/achievements.png
+SHA1-Digest: QVqchW/wDYdY065F3CHwXa9WS4o=
+
+Name: textures/ui/achievements_dialog.png
+SHA1-Digest: sCYCIuzpDJF0Jguh5vK4grSR8lE=
+
+Name: textures/ui/arrow.png
+SHA1-Digest: cx6zIfYOpFyPVVintg0VL8ahO9s=
+
+Name: textures/ui/arrowDown.png
+SHA1-Digest: 4MDwrPb1bHaNmkEcfq8mB9T0zCc=
+
+Name: textures/ui/arrowLeft.png
+SHA1-Digest: NvfXkj3OTtE8LztdwVah706DC8Y=
+
+Name: textures/ui/arrowRight.png
+SHA1-Digest: ghKgOTGQh1PEzpA4Oxamx5jku8M=
+
+Name: textures/ui/arrow_active.png
+SHA1-Digest: 4Ow8yyHq1Ku2/4xXS+Gl25rmlyg=
+
+Name: textures/ui/arrow_down.png
+SHA1-Digest: D40U03mcHfQzoDb2dLfjA+G9qQI=
+
+Name: textures/ui/arrow_icon.png
+SHA1-Digest: +iAYjOd21o24G8VTK2ec0SsXHBU=
+
+Name: textures/ui/arrow_inactive.png
+SHA1-Digest: +iAYjOd21o24G8VTK2ec0SsXHBU=
+
+Name: textures/ui/arrow_l_default.png
+SHA1-Digest: 6RgXTx70EccthBpdhUX7wbqBkFo=
+
+Name: textures/ui/arrow_l_hover.png
+SHA1-Digest: 6RgXTx70EccthBpdhUX7wbqBkFo=
+
+Name: textures/ui/arrow_l_pressed.png
+SHA1-Digest: 6RgXTx70EccthBpdhUX7wbqBkFo=
+
+Name: textures/ui/arrow_large.png
+SHA1-Digest: +iAYjOd21o24G8VTK2ec0SsXHBU=
+
+Name: textures/ui/arrow_r_default.png
+SHA1-Digest: HWyxETN9vxfekiOsF006HMtpmFU=
+
+Name: textures/ui/arrow_r_hover.png
+SHA1-Digest: HWyxETN9vxfekiOsF006HMtpmFU=
+
+Name: textures/ui/arrow_r_pressed.png
+SHA1-Digest: HWyxETN9vxfekiOsF006HMtpmFU=
+
+Name: textures/ui/attack.png
+SHA1-Digest: ZEvqNP7rcIxcf2wHKTXQ2j6cN9Y=
+
+Name: textures/ui/attack_pressed.png
+SHA1-Digest: ozCqhP3vioM+P4mNke6cNDLfKXk=
+
+Name: textures/ui/auto_save.json
+SHA1-Digest: Ib2IaFwv5pF6PXU3eV3dPczLTTI=
+
+Name: textures/ui/auto_save.png
+SHA1-Digest: txh/gmnJi1eC7kTh8jTnDCWCiQk=
+
+Name: textures/ui/automation_glyph.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/automation_glyph_color.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/back_button_default.png
+SHA1-Digest: EHUH5spHejhuzb5ltAFun5WtmDA=
+
+Name: textures/ui/back_button_hover.png
+SHA1-Digest: EHUH5spHejhuzb5ltAFun5WtmDA=
+
+Name: textures/ui/back_button_pressed.png
+SHA1-Digest: EHUH5spHejhuzb5ltAFun5WtmDA=
+
+Name: textures/ui/background.png
+SHA1-Digest: ViN5fodaf7OYOmdcHOaG0ppDXjk=
+
+Name: textures/ui/background_image.png
+SHA1-Digest: uySv6oJNiQ0OEPn7btrPkuMGLKc=
+
+Name: textures/ui/background_indent_no_top.png
+SHA1-Digest: OMXkQrZKknfq9B6m3aTVf38kAgc=
+
+Name: textures/ui/background_panel.png
+SHA1-Digest: jYXpM1euDE8+5BAHEE1XLQjfhEk=
+
+Name: textures/ui/background_with_border.png
+SHA1-Digest: jYXpM1euDE8+5BAHEE1XLQjfhEk=
+
+Name: textures/ui/bad_omen_effect.png
+SHA1-Digest: fOBK9UpYcMqu5Hkjiyj9Qfuaa24=
+
+Name: textures/ui/banners_no_border.png
+SHA1-Digest: jwqh+CmosjizwzldaaYhkrYwyaw=
+
+Name: textures/ui/banners_no_border_dark_hover.png
+SHA1-Digest: LfQ6krNdtpaOA7bdfyJ4hNtAMNw=
+
+Name: textures/ui/beacon_button_default.png
+SHA1-Digest: /ccgq0PZZNBc7QrdFeIK6cgmmlU=
+
+Name: textures/ui/beacon_button_hover.png
+SHA1-Digest: /ccgq0PZZNBc7QrdFeIK6cgmmlU=
+
+Name: textures/ui/beacon_button_locked.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/beacon_button_pressed.png
+SHA1-Digest: hlxXhDYTGeRklm6RyLWHvntkRyI=
+
+Name: textures/ui/beacon_default_button_pocket.png
+SHA1-Digest: sHUtZxx+Cnwu931o9NR1S8jcqsw=
+
+Name: textures/ui/beacon_item_seperator_pocket.png
+SHA1-Digest: scbrfU8IO1JHxQF1mQWuEXRDvHI=
+
+Name: textures/ui/beacon_selected_button_pocket.png
+SHA1-Digest: NhZg0WrdbCq8m8L4J0i8gOD6TG8=
+
+Name: textures/ui/bg32.png
+SHA1-Digest: KYGGf+rBYzLJdvN9wkZSHn8XolI=
+
+Name: textures/ui/blackline.png
+SHA1-Digest: lEr/Tehe+FQ/jXLoZMW1CNLrjp0=
+
+Name: textures/ui/blindness_effect.png
+SHA1-Digest: Q7yJLtdwbX99qRFkxCI9/v76YKo=
+
+Name: textures/ui/book_texteditbox_hover.png
+SHA1-Digest: n8S1yAR3Og4Elvxrxjj3bsYHq34=
+
+Name: textures/ui/book_trash_default.png
+SHA1-Digest: UIuRj7xOO6nZxMU/7T9RiY+K1YU=
+
+Name: textures/ui/box_number_grey.png
+SHA1-Digest: JQ4/YhETPlMOe/vcYjrnmNCG/zM=
+
+Name: textures/ui/break.png
+SHA1-Digest: pEVtew+LfZiBpLKUFcNpveRi6b8=
+
+Name: textures/ui/brewing_arrow_empty.png
+SHA1-Digest: yhl41c6lvuoznjTeBJi4EYJbEHg=
+
+Name: textures/ui/brewing_arrow_full.png
+SHA1-Digest: LSX4v/K4mbpYAblIOw618K1ThY0=
+
+Name: textures/ui/brewing_arrow_large_empty.png
+SHA1-Digest: yhl41c6lvuoznjTeBJi4EYJbEHg=
+
+Name: textures/ui/brewing_arrow_large_full.png
+SHA1-Digest: LSX4v/K4mbpYAblIOw618K1ThY0=
+
+Name: textures/ui/brewing_fuel_bar_empty.png
+SHA1-Digest: BgnMMJvZcpbmrMX9cjp57XM2D5A=
+
+Name: textures/ui/brewing_fuel_pipes.png
+SHA1-Digest: hBIC7Z4kbhWRIkdBiMdq0XqC7LU=
+
+Name: textures/ui/brewing_pipes.png
+SHA1-Digest: a/DAL78gTXQyjGoELfUsipNRwjE=
+
+Name: textures/ui/brewing_pipes_large.png
+SHA1-Digest: Lym+i3mKPG/tOFIbgbIyHXQzeo8=
+
+Name: textures/ui/broadcast_glyph.png
+SHA1-Digest: /ZlpgA5Xx3AQ4setUFWhULJtPJU=
+
+Name: textures/ui/broadcast_glyph_color.png
+SHA1-Digest: /ZlpgA5Xx3AQ4setUFWhULJtPJU=
+
+Name: textures/ui/bubbles_empty.png
+SHA1-Digest: 10AIYcDE7KOrK0SsFjHMMtzUDHs=
+
+Name: textures/ui/bubbles_full.png
+SHA1-Digest: CAcXxM4Sj/or5v834kJKdgbiH+Y=
+
+Name: textures/ui/button_border_light_bottom_right.png
+SHA1-Digest: luu2lOkDdXoA6qxGZPczxUeuOGQ=
+
+Name: textures/ui/button_borderless_dark.png
+SHA1-Digest: W2MmoipnipB7+lC6Qw1D4o8tx1Q=
+
+Name: textures/ui/button_borderless_darkhover.png
+SHA1-Digest: Ex83ckpjtJsJw9NUByVx+E1+EKo=
+
+Name: textures/ui/button_borderless_darkpressed.png
+SHA1-Digest: jpRkO+yQUBv6/1fU3KTM3kiPSAU=
+
+Name: textures/ui/button_borderless_darkpressednohover.png
+SHA1-Digest: kmI4QJzHkxA18xWbfLPb1kYWCZ4=
+
+Name: textures/ui/button_borderless_imagelesshoverbg.png
+SHA1-Digest: HRqHitF3UkUdbqR3LRMbCxxg1as=
+
+Name: textures/ui/button_borderless_lighthover.png
+SHA1-Digest: Ex83ckpjtJsJw9NUByVx+E1+EKo=
+
+Name: textures/ui/button_borderless_lightpressed.png
+SHA1-Digest: jpRkO+yQUBv6/1fU3KTM3kiPSAU=
+
+Name: textures/ui/button_borderless_lightpressednohover.png
+SHA1-Digest: Uuw8MgK4KAqrgfQQdwvFmrVxeHo=
+
+Name: textures/ui/button_dark_color.png
+SHA1-Digest: HaxDPBcpy5DCgVEBRZMGBO/KVYw=
+
+Name: textures/ui/button_jack.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/button_red.png
+SHA1-Digest: RxNBuMZsbX7vtXmxlNx/b2laHXc=
+
+Name: textures/ui/button_red_pressed.png
+SHA1-Digest: zU7VfcjQ+IxHZruw6VuhJI4opzQ=
+
+Name: textures/ui/camera-yo.png
+SHA1-Digest: BGGIl2bU/B3QQ7Yyhtx8qqgaP5Y=
+
+Name: textures/ui/cancel.png
+SHA1-Digest: KbE5zJuRWz0zM1D89YbHpB2fPwI=
+
+Name: textures/ui/cell_image.png
+SHA1-Digest: MaFxcFjPWPmyfrvT28guOAAwgs4=
+
+Name: textures/ui/cell_image_darkgrey.png
+SHA1-Digest: 4qFgPQYyLrmi9z/wZts0mFPWaA4=
+
+Name: textures/ui/cell_image_invert.png
+SHA1-Digest: MaFxcFjPWPmyfrvT28guOAAwgs4=
+
+Name: textures/ui/cell_image_lock.png
+SHA1-Digest: 4qFgPQYyLrmi9z/wZts0mFPWaA4=
+
+Name: textures/ui/cell_image_normal.png
+SHA1-Digest: MaFxcFjPWPmyfrvT28guOAAwgs4=
+
+Name: textures/ui/cell_image_red.png
+SHA1-Digest: xISKnuWj9jAqiqC97PuJywXtZpY=
+
+Name: textures/ui/chat_send.png
+SHA1-Digest: alzbyLP0MCp/u2wZwIajVQIktHk=
+
+Name: textures/ui/checkboxUnFilled.png
+SHA1-Digest: 3SJ63MIiUJb+ZT/LDArx11s/iYA=
+
+Name: textures/ui/checkbox_space.png
+SHA1-Digest: W1kw8HhECPp//sT7FsOg6uADsuo=
+
+Name: textures/ui/checkbox_spaceDisabled.png
+SHA1-Digest: W1kw8HhECPp//sT7FsOg6uADsuo=
+
+Name: textures/ui/checkbox_spaceHover.png
+SHA1-Digest: W1kw8HhECPp//sT7FsOg6uADsuo=
+
+Name: textures/ui/chevron_grey_left.png
+SHA1-Digest: ts4JQzPNygsIOH4QHStk4b4hYNA=
+
+Name: textures/ui/chevron_grey_right.png
+SHA1-Digest: viJJhT9/NXdTSNbT4DQ1BkNu6a0=
+
+Name: textures/ui/chevron_left.png
+SHA1-Digest: 2kULop1WbFh7hb4NktKAuk2aSFA=
+
+Name: textures/ui/chevron_right.png
+SHA1-Digest: +sLkEKGNcNwUHNic7jgqiBgpRU0=
+
+Name: textures/ui/chevron_white_down.png
+SHA1-Digest: 7gTnPsGdX6JwKwQ20fEab0wj9gc=
+
+Name: textures/ui/chevron_white_up.png
+SHA1-Digest: xvRG7afgL3MY3PFpgZ+SYikjj1U=
+
+Name: textures/ui/classic-button-hover.png
+SHA1-Digest: UY0qYJIe5QzaSBPqKDPo8YKs1DM=
+
+Name: textures/ui/classic-button-pressed.png
+SHA1-Digest: UY0qYJIe5QzaSBPqKDPo8YKs1DM=
+
+Name: textures/ui/classic-button.png
+SHA1-Digest: UY0qYJIe5QzaSBPqKDPo8YKs1DM=
+
+Name: textures/ui/close_button_default.png
+SHA1-Digest: +k6F0W8gf3W+tl8eFEbffB7jpCk=
+
+Name: textures/ui/close_button_default_compact.png
+SHA1-Digest: n1jONDj8fQQI5s7BJIMzTxF27VU=
+
+Name: textures/ui/close_button_default_light.png
+SHA1-Digest: +k6F0W8gf3W+tl8eFEbffB7jpCk=
+
+Name: textures/ui/close_button_hover.png
+SHA1-Digest: +k6F0W8gf3W+tl8eFEbffB7jpCk=
+
+Name: textures/ui/close_button_hover_compact.png
+SHA1-Digest: n1jONDj8fQQI5s7BJIMzTxF27VU=
+
+Name: textures/ui/close_button_hover_light.png
+SHA1-Digest: +k6F0W8gf3W+tl8eFEbffB7jpCk=
+
+Name: textures/ui/close_button_pressed.png
+SHA1-Digest: +k6F0W8gf3W+tl8eFEbffB7jpCk=
+
+Name: textures/ui/close_button_pressed_compact.png
+SHA1-Digest: BaWm9H0WEiHaikdWDADZ2iq+k+I=
+
+Name: textures/ui/close_button_pressed_light.png
+SHA1-Digest: GmyYqv3itbZxL5bzf+unbQqeo94=
+
+Name: textures/ui/coin_button_borderless.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/coin_button_borderless_pressed.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/common-classic_toggle_checked_state.png
+SHA1-Digest: WfA+PDbCM2sgQhAUkdM/dMwP1Ms=
+
+Name: textures/ui/common-classic_toggle_unchecked_state.png
+SHA1-Digest: JzgzA1fxqxY1NGFk3ATyYCeT4p0=
+
+Name: textures/ui/conduit_power_effect.png
+SHA1-Digest: bLXVcKd+aq6JeYFLx+qcln5uQAc=
+
+Name: textures/ui/confirm.png
+SHA1-Digest: 8xd9ryK6doQPmL3o0LBJuNrC5Fw=
+
+Name: textures/ui/control.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/control_white.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/controller_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/controller_glyph_color.png
+SHA1-Digest: G37h1l4Nr6Jj593Y1Rk5OBXQq/w=
+
+Name: textures/ui/controller_glyph_color_switch.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/controller_glyph_switch.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/copy.png
+SHA1-Digest: Rg3vwXVAlrOvEIkzij+cVRQqZzY=
+
+Name: textures/ui/cover_background_gray.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: textures/ui/craft_toggle_off.png
+SHA1-Digest: qLJuP4N9mepka0R650ZMEzw4ODQ=
+
+Name: textures/ui/craft_toggle_off_hover.png
+SHA1-Digest: qLJuP4N9mepka0R650ZMEzw4ODQ=
+
+Name: textures/ui/craft_toggle_on.png
+SHA1-Digest: B8UJVOCHan2b5HKdSJGuHWUVia8=
+
+Name: textures/ui/craft_toggle_on_hover.png
+SHA1-Digest: B8UJVOCHan2b5HKdSJGuHWUVia8=
+
+Name: textures/ui/creative_icon.png
+SHA1-Digest: sIk4FPEaDQSAGc6rOZ2jqs3qeGM=
+
+Name: textures/ui/creator_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/creator_glyph_color.png
+SHA1-Digest: OfEPzgiiC3PxOm4EZtfeWlrX2Bo=
+
+Name: textures/ui/cursor_pc.png
+SHA1-Digest: xZkbNCr1AmAOPrQujXhRtAROyQY=
+
+Name: textures/ui/dark.png
+SHA1-Digest: hli4zpC6PuLZhItOJU8VJC+8RFI=
+
+Name: textures/ui/dark_bg.png
+SHA1-Digest: JQ4/YhETPlMOe/vcYjrnmNCG/zM=
+
+Name: textures/ui/dark_minus.png
+SHA1-Digest: 42YySRxBRPvK6Ox7x4wkpe11Jgs=
+
+Name: textures/ui/dark_plus.png
+SHA1-Digest: wQjkGpXS0YxGrcwogdMoYYqxzrs=
+
+Name: textures/ui/darkness_effect.png
+SHA1-Digest: ldyAQV54lq2IavFf9dvJ2Zp8+5A=
+
+Name: textures/ui/default_indent.png
+SHA1-Digest: UY0qYJIe5QzaSBPqKDPo8YKs1DM=
+
+Name: textures/ui/dev_glyph.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/dev_glyph_color.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/dialog_background_hollow_1.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: textures/ui/dialog_background_hollow_2.png
+SHA1-Digest: IAIXkmimtBlCpONx/xLL9PpwoRE=
+
+Name: textures/ui/dialog_background_hollow_3.png
+SHA1-Digest: HRqHitF3UkUdbqR3LRMbCxxg1as=
+
+Name: textures/ui/dialog_background_hollow_4.png
+SHA1-Digest: uGks5PWW87vGxaa+ZZk4YqhjcZo=
+
+Name: textures/ui/dialog_background_hollow_5.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: textures/ui/dialog_background_hollow_6.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: textures/ui/dialog_background_opaque.png
+SHA1-Digest: WTII/JY1CrLsIOyyOjiJM8dtuMw=
+
+Name: textures/ui/dialog_background_opaque_overlap_bottom.png
+SHA1-Digest: 1Ho7CYeqjYnuObp+5/qpxrvOmqk=
+
+Name: textures/ui/dialog_bubble.png
+SHA1-Digest: VARrpskv24wkxkXfQLhxNwDr0oA=
+
+Name: textures/ui/dialog_divider.png
+SHA1-Digest: tTlf5QSdWNe3Uh+2vLvKjaFPjfA=
+
+Name: textures/ui/dialog_indent_horiz.png
+SHA1-Digest: cqnExUVXh4cKxA3TCAHwHUgiCK0=
+
+Name: textures/ui/disabledButton.png
+SHA1-Digest: 3n2UpM2YXbnmGAyovhKoK7QJEoU=
+
+Name: textures/ui/disabledButtonNoBorder.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/dismount.png
+SHA1-Digest: /Hf2uC8vWiX9IKFZWCDrcP81kfE=
+
+Name: textures/ui/dismount_pressed.png
+SHA1-Digest: SRXy6gDehBQckj69k4ps42JSDUI=
+
+Name: textures/ui/divider.png
+SHA1-Digest: qNS6t+gbjU3sxnXWJJn4INmPvM0=
+
+Name: textures/ui/divider2.png
+SHA1-Digest: nOLfftRibH52fJElKaL7PAvXg4M=
+
+Name: textures/ui/divider3.png
+SHA1-Digest: 1y5dm1U3sfY5GfUPx+vpH8Udibs=
+
+Name: textures/ui/down_arrow.png
+SHA1-Digest: vddmNQONo2lNHVanBjDe3neNP6k=
+
+Name: textures/ui/download_backup.png
+SHA1-Digest: JbCNEF/UXgD+nXJGnZu6EYd+8fQ=
+
+Name: textures/ui/dressing_room_banner.png
+SHA1-Digest: NhZg0WrdbCq8m8L4J0i8gOD6TG8=
+
+Name: textures/ui/dropDownHoverBG.png
+SHA1-Digest: xKWPH4X3ZvfrxcVuGijg0joeUqI=
+
+Name: textures/ui/dropdown_background.png
+SHA1-Digest: lhy7n8i++Uyh7qH+TlBvvbsU7pA=
+
+Name: textures/ui/dropdown_chevron.png
+SHA1-Digest: ho9YFlk73Rjo/Ohlq/6Nn30m/Us=
+
+Name: textures/ui/easily_visible_creeper.png
+SHA1-Digest: 2WNo2cQ+huk8Y7njAQatbJMLSw8=
+
+Name: textures/ui/editIcon.png
+SHA1-Digest: grYn+p+O1QegI0evLZRF1qNHbJQ=
+
+Name: textures/ui/edit_box_indent.png
+SHA1-Digest: nTbrspV8fW+HlT3Ymj4a5Aphcf4=
+
+Name: textures/ui/edit_box_indent_hover.png
+SHA1-Digest: nTbrspV8fW+HlT3Ymj4a5Aphcf4=
+
+Name: textures/ui/effect_background.png
+SHA1-Digest: bov0Ct3EZEs17AY5NN90mfNElSQ=
+
+Name: textures/ui/elipses.png
+SHA1-Digest: oJk/6at9dv5FcVYkkqu8w0UBwsM=
+
+Name: textures/ui/emote_wheel_base.png
+SHA1-Digest: 744PomJ8vgg22HsRQJ20vWulkGI=
+
+Name: textures/ui/emote_wheel_select_0.png
+SHA1-Digest: s+0u92IQCppgZExWSsAEAnBw95M=
+
+Name: textures/ui/emote_wheel_select_1.png
+SHA1-Digest: aXUQ8I+BKqm9YnxtRHUkW9UqATA=
+
+Name: textures/ui/emote_wheel_select_2.png
+SHA1-Digest: HQJRa/Ao3PE+SV6RPJuTESspqf4=
+
+Name: textures/ui/emote_wheel_select_3.png
+SHA1-Digest: Vm2tTESfwC+BvqzyOmEbgbQ6NEo=
+
+Name: textures/ui/emote_wheel_select_4.png
+SHA1-Digest: 4bqkoEqawiuoOpqM3xt77MAhQLI=
+
+Name: textures/ui/emote_wheel_select_5.png
+SHA1-Digest: 29qJtOtcvcXZomZsW0h/QvYs06Q=
+
+Name: textures/ui/empty_armor_slot_boots.png
+SHA1-Digest: Cbj91QzzNKU20DNdf4txrmNV0AE=
+
+Name: textures/ui/empty_armor_slot_chestplate.png
+SHA1-Digest: 9pJ4mg1X8k6cJdyvbqKg3veGsms=
+
+Name: textures/ui/empty_armor_slot_helmet.png
+SHA1-Digest: wbAqZ4s3YhCU7pYN+0Tt5p8v1QU=
+
+Name: textures/ui/empty_armor_slot_leggings.png
+SHA1-Digest: 1nuiNoOtjO6Af797g2tBgK/TKTk=
+
+Name: textures/ui/empty_armor_slot_shield.png
+SHA1-Digest: oX3RlUY6JlZcPBv+O/ikccr/p08=
+
+Name: textures/ui/equipped_item_border.png
+SHA1-Digest: Dazn6hvRvw1zjTsbScGV8P8lnKk=
+
+Name: textures/ui/experiencebarempty.png
+SHA1-Digest: EpPqTVzHas+W4WsUu8vzARd5NGM=
+
+Name: textures/ui/experiencebarfull.png
+SHA1-Digest: VjQYKQi+3EKZBVmmJSi1X8ZJOTY=
+
+Name: textures/ui/experiencenub.png
+SHA1-Digest: 1xgFhrXANITV31YrfcjFl/nJ/d4=
+
+Name: textures/ui/feed_background.png
+SHA1-Digest: sjNj0Frx2pJ1UYJ5XKSqOoi2Wzw=
+
+Name: textures/ui/filledBar.png
+SHA1-Digest: a6gvLCeMMN5t0BAc7NHG5fYnVp4=
+
+Name: textures/ui/filled_progress_bar.png
+SHA1-Digest: PgDHzAEW6nmPnhCe5S7H+XC5kiY=
+
+Name: textures/ui/fire_resistance_effect.png
+SHA1-Digest: rQXT/mjsoCOZC5wncZMlnIvAf54=
+
+Name: textures/ui/first_of_two.png
+SHA1-Digest: iAaS+OPDak3SuHDk2iwBFbiau54=
+
+Name: textures/ui/flyingascend.png
+SHA1-Digest: SobRvHEGkGivxsLU7xJ2Si0l8sY=
+
+Name: textures/ui/flyingascend_pressed.png
+SHA1-Digest: +2hcuHzT37XPzdkdO2jwJG6IpdA=
+
+Name: textures/ui/flyingdescend.png
+SHA1-Digest: q47Y3H/lpX5k26tkPJfd1uXv/do=
+
+Name: textures/ui/flyingdescend_pressed.png
+SHA1-Digest: uHpblxToOllfIAK8M7NYw3wyvU0=
+
+Name: textures/ui/focus_border_selected.png
+SHA1-Digest: 1Qk26HB9FobebIc7iZRjMODcDzU=
+
+Name: textures/ui/focus_border_white.png
+SHA1-Digest: 6jG22HC4i3O/I6BdTmgAfcKb/jM=
+
+Name: textures/ui/free_download.png
+SHA1-Digest: QWbcxnBcAlHrxJypYvHPyKsLCi4=
+
+Name: textures/ui/freeze_heart.png
+SHA1-Digest: 7gP6LEvEV90mvkldVpo2Sm2SodQ=
+
+Name: textures/ui/freeze_heart_half.png
+SHA1-Digest: xhWeBtRcU18GGHSvFatYOFqgZyk=
+
+Name: textures/ui/frozen_effect.png
+SHA1-Digest: EUjxPRvksuW9DxNGUvZ+7lGkJ4c=
+
+Name: textures/ui/gear.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/greyBorder.png
+SHA1-Digest: m0Qg0lhiM3t+KCZqPAW2qywyVbU=
+
+Name: textures/ui/grey_gamepad_icon_button.png
+SHA1-Digest: pLfdgVjkGDYbFogBCLlTIQPZPEw=
+
+Name: textures/ui/gui_button_layout.png
+SHA1-Digest: gyhjLMdYNL516BW50M5gKls4cL4=
+
+Name: textures/ui/haste_effect.png
+SHA1-Digest: PB7uplekbl0cLA98mkOl8RbOJyk=
+
+Name: textures/ui/header_bar.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/header_bar_2.json
+SHA1-Digest: yMYwNUfxuYma+HXQ4z7dFliu5H8=
+
+Name: textures/ui/header_bar_2.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/health_boost_effect.png
+SHA1-Digest: iYa7mm28kJNz8Yoe+OEHvoZIjxw=
+
+Name: textures/ui/heart.png
+SHA1-Digest: dSOl4cWx9/05Y3Ew6s+Dy90LMZI=
+
+Name: textures/ui/heart_background.png
+SHA1-Digest: OB21AKiO041VBlNXg/c9E2ucqyw=
+
+Name: textures/ui/heart_blink.png
+SHA1-Digest: OB21AKiO041VBlNXg/c9E2ucqyw=
+
+Name: textures/ui/heart_half.png
+SHA1-Digest: A2YlQ0Iwk0rSTxXpTDaBQxajCck=
+
+Name: textures/ui/highlight_slot.png
+SHA1-Digest: FgfQJkyEmSU0uzcMzwCjotHHnWw=
+
+Name: textures/ui/hollowbanner.png
+SHA1-Digest: 7GtmVqRlCLzjDdtTRLXxTdBP07k=
+
+Name: textures/ui/horizontal_divider.png
+SHA1-Digest: nOLfftRibH52fJElKaL7PAvXg4M=
+
+Name: textures/ui/horizontalbreak.png
+SHA1-Digest: 8ynqrU3nCJ+2YrJA52CAMgUKqqA=
+
+Name: textures/ui/horse_jump_empty.png
+SHA1-Digest: Tt0uig0i0lKV4rVTkMeKZ87OAMg=
+
+Name: textures/ui/horse_jump_full.png
+SHA1-Digest: ggVLJ+BN8qy/bKgxEf41hVXiTqw=
+
+Name: textures/ui/hotbar_0.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_1.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_2.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_3.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_4.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_5.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_6.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_7.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_8.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/hotbar_end_cap.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/hotbar_start_cap.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/how_to_play_button_default.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/how_to_play_button_default_light.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/how_to_play_button_hover.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/how_to_play_button_hover_light.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/how_to_play_button_pressed.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/how_to_play_button_pressed_light.png
+SHA1-Digest: JwDNTKgtAStbFu/7N7KNUlrxVmg=
+
+Name: textures/ui/hud_mob_effect_background.png
+SHA1-Digest: nmHexSYdAkfyApOKdKnkgDrk5WU=
+
+Name: textures/ui/hud_tip_text_background.png
+SHA1-Digest: gxgfUd2UhiNjoBuFiV9qZPoKlKo=
+
+Name: textures/ui/hunger_effect.png
+SHA1-Digest: L+CIflqua5mCg6ns3vprwHokqOU=
+
+Name: textures/ui/hunger_effect_background.png
+SHA1-Digest: j+NKROwYuDSgVe3fJcFUD74f4RM=
+
+Name: textures/ui/hunger_effect_flash_full.png
+SHA1-Digest: 0QELI+bv0LYstDxAt4Bfl1qMBhU=
+
+Name: textures/ui/hunger_effect_flash_half.png
+SHA1-Digest: MviRi4ZQf/pnJ4QTakYsspadAXc=
+
+Name: textures/ui/hunger_effect_full.png
+SHA1-Digest: dabDHs87t4KFw5DAzXgGhYboD9Q=
+
+Name: textures/ui/hunger_effect_half.png
+SHA1-Digest: zWPg7rRztmqmpAXKvedpTmkAKYE=
+
+Name: textures/ui/ic_com_start_small_grey_disable.png
+SHA1-Digest: iynoUdHck/VyMELqOo6nuRwtZqg=
+
+Name: textures/ui/icon_armor.png
+SHA1-Digest: GzUg01LbYih+hUh6+7KmJh9UUI0=
+
+Name: textures/ui/icon_crafting.png
+SHA1-Digest: 3PEexTOZh/XRAeSigWaA9QLeAgg=
+
+Name: textures/ui/icon_expand.png
+SHA1-Digest: wEzADzujZdrMMlKTUr3RY7Fsn1g=
+
+Name: textures/ui/icon_image_save.png
+SHA1-Digest: JbCNEF/UXgD+nXJGnZu6EYd+8fQ=
+
+Name: textures/ui/icon_new_item.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/icon_none.png
+SHA1-Digest: /r0oGEMESDvWuOWezTpiOwM7sIM=
+
+Name: textures/ui/icon_preview.png
+SHA1-Digest: wEzADzujZdrMMlKTUr3RY7Fsn1g=
+
+Name: textures/ui/icon_recipe_construction.png
+SHA1-Digest: B2yAzqO26Kru/UuC9olxbnPxOnU=
+
+Name: textures/ui/icon_recipe_equipment.png
+SHA1-Digest: hm6uO1q0KWGUYY210GLSA2cNwuM=
+
+Name: textures/ui/icon_recipe_item.png
+SHA1-Digest: Z0d/3GN1XTEOmCBLAS8+ENyPIOw=
+
+Name: textures/ui/icon_recipe_nature.png
+SHA1-Digest: /FFfXX+udrHeAYi8D8Jx9IK7sJY=
+
+Name: textures/ui/icon_setting.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/icon_trash.png
+SHA1-Digest: UIuRj7xOO6nZxMU/7T9RiY+K1YU=
+
+Name: textures/ui/imagetaggedcornergreen.png
+SHA1-Digest: OaIotg32n9FsCjjtbZu31lMe5p4=
+
+Name: textures/ui/imagetaggedcornergreenhover.png
+SHA1-Digest: OaIotg32n9FsCjjtbZu31lMe5p4=
+
+Name: textures/ui/imagetaggedcornergreenpressed.png
+SHA1-Digest: OaIotg32n9FsCjjtbZu31lMe5p4=
+
+Name: textures/ui/import.png
+SHA1-Digest: 94BQTLITvMtkMEro2TBhQwE4hZY=
+
+Name: textures/ui/interact.png
+SHA1-Digest: KryqRZnqDQEsaFB/rtL6pKbc+os=
+
+Name: textures/ui/interact_pressed.png
+SHA1-Digest: BpvUCcLfX/XJ7KppONUdiHBLx0M=
+
+Name: textures/ui/inventory_icon.png
+SHA1-Digest: OrmymVLXoTwbthzvvZVDMIyvAms=
+
+Name: textures/ui/invisibility_effect.png
+SHA1-Digest: ynOghx3z4+stIAAsPMgwPUC6YS0=
+
+Name: textures/ui/item_cell.png
+SHA1-Digest: J+2uKGzqP6zOqwFfUXIMKgdP0t4=
+
+Name: textures/ui/item_seperator.png
+SHA1-Digest: scbrfU8IO1JHxQF1mQWuEXRDvHI=
+
+Name: textures/ui/joincode_button_background.png
+SHA1-Digest: RbOjFchh4Ohtmin3lGjKKnQ1PMo=
+
+Name: textures/ui/jump.png
+SHA1-Digest: u2Al7dC1MeWDhVFmduexa412tHc=
+
+Name: textures/ui/jump_boost_effect.png
+SHA1-Digest: 7qcD7PgqdH1gHb8FPsEu0toRjs4=
+
+Name: textures/ui/jump_pressed.png
+SHA1-Digest: LPoP0Er7ado3Z0JCyFiD0gdVPvE=
+
+Name: textures/ui/keyboard_and_mouse_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/keyboard_and_mouse_glyph_color.png
+SHA1-Digest: vZmy1/kGeAPi75WIsQ81rZmWkp8=
+
+Name: textures/ui/language_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/language_glyph_color.png
+SHA1-Digest: fsTqicBbgZXdnQfmNk5kjpNu4hc=
+
+Name: textures/ui/legacybanner.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/levitation_effect.png
+SHA1-Digest: abd162O99Ajf/kOkC9ceZzXI9lY=
+
+Name: textures/ui/lightgreybars.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/loading_bar.png
+SHA1-Digest: surjRI7h9ZnlpQcXKR/vIbRsFoE=
+
+Name: textures/ui/magnifyingGlass.png
+SHA1-Digest: +BblFlGGUirsLfmcop+f+Jjobgc=
+
+Name: textures/ui/mainbanners_transparency.png
+SHA1-Digest: JQ4/YhETPlMOe/vcYjrnmNCG/zM=
+
+Name: textures/ui/menubackground.png
+SHA1-Digest: Ycgp0MGPJMR5s3pgXT8qDpbjSMk=
+
+Name: textures/ui/middle_strip.png
+SHA1-Digest: Ycgp0MGPJMR5s3pgXT8qDpbjSMk=
+
+Name: textures/ui/minimize.png
+SHA1-Digest: 3+bwMgDb+h68Z1HPN/KZ48Y4ODw=
+
+Name: textures/ui/minimizeHover.png
+SHA1-Digest: 3+bwMgDb+h68Z1HPN/KZ48Y4ODw=
+
+Name: textures/ui/minimizePress.png
+SHA1-Digest: 3+bwMgDb+h68Z1HPN/KZ48Y4ODw=
+
+Name: textures/ui/mining_fatigue_effect.png
+SHA1-Digest: AQ/JYG8mvDDFPcDykPUkQV0OaRg=
+
+Name: textures/ui/minus.png
+SHA1-Digest: LpZnxFwr2hMTXRrahx8K9oS0JKw=
+
+Name: textures/ui/mob_effect_background.png
+SHA1-Digest: w3IkojFGB3lXuv5C461jwjLBtbA=
+
+Name: textures/ui/more-dots.png
+SHA1-Digest: MoI74eDQXlfSgH8BbKK1twBrS0s=
+
+Name: textures/ui/more_dots.png
+SHA1-Digest: +sYISFB5/PmfP54MT9r3Ci1oHJk=
+
+Name: textures/ui/mount.png
+SHA1-Digest: a3So6d5NaojH23sjN5AMRdzZOTA=
+
+Name: textures/ui/mount_pressed.png
+SHA1-Digest: +cTN485EkT1P9V7lqiQJSpH6vlA=
+
+Name: textures/ui/multiplayer_glyph.png
+SHA1-Digest: RUX/mOmuZgf9Gm0eogPW8+ajX18=
+
+Name: textures/ui/multiplayer_glyph_color.png
+SHA1-Digest: pNrIZm7pCm7foaJAf9hy0eGd4A8=
+
+Name: textures/ui/nausea_effect.png
+SHA1-Digest: 9NTEcsCQQ7NIcjQAtpdgxBvjXoU=
+
+Name: textures/ui/netease_website.png
+SHA1-Digest: 6zGC9sxE4FiiEuoSXD2zWQnxouI=
+
+Name: textures/ui/newOffersIcon.png
+SHA1-Digest: OB21AKiO041VBlNXg/c9E2ucqyw=
+
+Name: textures/ui/night_vision_effect.png
+SHA1-Digest: sr0azS7c/9fC9X/LxQZNQkNe6hU=
+
+Name: textures/ui/normal_normal.png
+SHA1-Digest: v4XNG/F5PrdxdEGaTUSj6hAyihs=
+
+Name: textures/ui/normal_pressed.png
+SHA1-Digest: v4XNG/F5PrdxdEGaTUSj6hAyihs=
+
+Name: textures/ui/normal_stroke_button.png
+SHA1-Digest: q88TGiBWGnwf19NVMEwYG35EK0s=
+
+Name: textures/ui/numberBGBack.png
+SHA1-Digest: kmI4QJzHkxA18xWbfLPb1kYWCZ4=
+
+Name: textures/ui/numberBGFront.png
+SHA1-Digest: kmI4QJzHkxA18xWbfLPb1kYWCZ4=
+
+Name: textures/ui/packs_border.png
+SHA1-Digest: j3iwKUYw6UtscrcKXO/VZ3v4VJ0=
+
+Name: textures/ui/packs_middle.png
+SHA1-Digest: 1y5dm1U3sfY5GfUPx+vpH8Udibs=
+
+Name: textures/ui/panorama_0.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/panorama_1.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/panorama_2.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/panorama_3.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/panorama_4.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/panorama_5.png
+SHA1-Digest: /anej6dJB/H3p3bIlrv5ul2Fmlc=
+
+Name: textures/ui/pause_screen_border.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/permissions_player_fade_overlay.png
+SHA1-Digest: pghh8CfcWS1vuVRENeRZLw6bhs4=
+
+Name: textures/ui/player_offline_icon.png
+SHA1-Digest: ug2s1UbJezXveifzbw5SKH89Nio=
+
+Name: textures/ui/player_online_icon.png
+SHA1-Digest: kJSSAamiqPai8mjP9ybhgOiZjik=
+
+Name: textures/ui/player_preview_border.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/pocket_tab_left_side.png
+SHA1-Digest: LjSgsm4KethxlPgzJmNkjYte+bs=
+
+Name: textures/ui/pocket_ui_highlight_selected_slot.png
+SHA1-Digest: ifvg8ZLP275zJtCu4CDF8YQPAHs=
+
+Name: textures/ui/pocket_ui_highlight_slot.png
+SHA1-Digest: ifvg8ZLP275zJtCu4CDF8YQPAHs=
+
+Name: textures/ui/poison_effect.png
+SHA1-Digest: 8it/epU+R6drtxSLLq6oBXOwmjQ=
+
+Name: textures/ui/poison_heart.png
+SHA1-Digest: BB9TLZ/O17q0V8RBU0OAQ5iMJ5M=
+
+Name: textures/ui/poison_heart_half.png
+SHA1-Digest: z/2dH5qRUHSEjG4usJwyhM28YS4=
+
+Name: textures/ui/portalBg.png
+SHA1-Digest: fcu8+LQeMP45cS6daEMFU+hgr1w=
+
+Name: textures/ui/profile_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/profile_glyph_color.png
+SHA1-Digest: 7op/EPJWEzyyrQj3aR1uTo0y/b4=
+
+Name: textures/ui/progress_bar_simple.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/promo_background.png
+SHA1-Digest: v4XNG/F5PrdxdEGaTUSj6hAyihs=
+
+Name: textures/ui/promotion_slot.png
+SHA1-Digest: 1tw1/ys1bikKXlrDEkS3byO93jA=
+
+Name: textures/ui/purpleBorder.png
+SHA1-Digest: r4e0LQSzDGjUA/SmGhEGngaGipA=
+
+Name: textures/ui/purple_gradient.png
+SHA1-Digest: +gGZpljiv1n4Q8xcprc9zJqJuc4=
+
+Name: textures/ui/pyramid_level_1.png
+SHA1-Digest: wpbWfWMyR9wyZlzfRMwvLVcseDs=
+
+Name: textures/ui/pyramid_level_2.png
+SHA1-Digest: GN1enBPK/HRf0gXqSn/kQMbdZNc=
+
+Name: textures/ui/pyramid_level_3.png
+SHA1-Digest: 52EbWFU325PCouCE4m84KecFckQ=
+
+Name: textures/ui/pyramid_level_4.png
+SHA1-Digest: ZC88J+M7xMe6uQ33adRL3O0V6BY=
+
+Name: textures/ui/radio_checked_hover.png
+SHA1-Digest: vatDI/etZoediBVOF3U82cUSVAs=
+
+Name: textures/ui/radio_off.png
+SHA1-Digest: Xww3fAl82bOAWnVAGOnAY6rCdgc=
+
+Name: textures/ui/radio_off_hover.png
+SHA1-Digest: FT4JZlazt4PZTpZw/q4zWZh6FiI=
+
+Name: textures/ui/radio_on.png
+SHA1-Digest: vatDI/etZoediBVOF3U82cUSVAs=
+
+Name: textures/ui/radio_on_hover.png
+SHA1-Digest: rnRuS41U9ARtnFOowP/dC3nEvWQ=
+
+Name: textures/ui/realmsContent.png
+SHA1-Digest: fcu8+LQeMP45cS6daEMFU+hgr1w=
+
+Name: textures/ui/realmsContentPressed.png
+SHA1-Digest: N+cDiS6TKXcXvRdIVhH8I1eSB3g=
+
+Name: textures/ui/realms_text_background.png
+SHA1-Digest: huk0y+kEjWSi5fVmZEq2RIl+QUI=
+
+Name: textures/ui/recipe_back_panel.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/recipe_book_button_borderless_light.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/recipe_book_button_borderless_lighthover.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/recipe_book_button_borderless_lightpressed.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/recipe_book_button_borderless_lightpressednohover.pn
+ g
+SHA1-Digest: OhlDj2BXGKzpwxEWLvNc8NkCMXI=
+
+Name: textures/ui/recipe_book_collapse_icon.png
+SHA1-Digest: 0sXH4gNP1HDhIc0rqhrHuXxYAvQ=
+
+Name: textures/ui/recipe_book_dark_button.png
+SHA1-Digest: GCmMg7K6sAjhQlyD2WB4S32fXcE=
+
+Name: textures/ui/recipe_book_dark_button_pressed.png
+SHA1-Digest: OhlDj2BXGKzpwxEWLvNc8NkCMXI=
+
+Name: textures/ui/recipe_book_expand_icon.png
+SHA1-Digest: NiAN7P9OLzAEMDOBoGs0i2svmTI=
+
+Name: textures/ui/recipe_book_group_bg.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/recipe_book_group_collapsed.png
+SHA1-Digest: NhZg0WrdbCq8m8L4J0i8gOD6TG8=
+
+Name: textures/ui/recipe_book_group_expanded.png
+SHA1-Digest: NhZg0WrdbCq8m8L4J0i8gOD6TG8=
+
+Name: textures/ui/recipe_book_icon.png
+SHA1-Digest: fqzW+w+CHAaWHoHY0/tQzt48sJM=
+
+Name: textures/ui/recipe_book_item_bg.png
+SHA1-Digest: GCOxX8Xz1mWfTAPF3kyVpf+c1Ik=
+
+Name: textures/ui/recipe_book_light_button.png
+SHA1-Digest: OhlDj2BXGKzpwxEWLvNc8NkCMXI=
+
+Name: textures/ui/recipe_book_light_button_pressed.png
+SHA1-Digest: OhlDj2BXGKzpwxEWLvNc8NkCMXI=
+
+Name: textures/ui/recipe_book_pane_bg.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/recipe_book_red.png
+SHA1-Digest: 1WFMPyBgobVQm0y+UdGytCv+J+8=
+
+Name: textures/ui/recipe_book_red_button.png
+SHA1-Digest: JUi+tbuCdmKIBltddcixjVav+C8=
+
+Name: textures/ui/recipe_book_red_button_pressed.png
+SHA1-Digest: JUi+tbuCdmKIBltddcixjVav+C8=
+
+Name: textures/ui/recipe_book_side_toggle_dark.png
+SHA1-Digest: NGVX3nX5bj3Gg+erfXZ7dQ740s8=
+
+Name: textures/ui/recipe_book_side_toggle_dark_hover.png
+SHA1-Digest: NGVX3nX5bj3Gg+erfXZ7dQ740s8=
+
+Name: textures/ui/recipe_book_touch_cell_selected.png
+SHA1-Digest: SvQqQTMOsqDocYHFA2eugu4ckxo=
+
+Name: textures/ui/regeneration_effect.png
+SHA1-Digest: H5Yz0EbCxDgDDzLucB4O94xKXLo=
+
+Name: textures/ui/resistance_effect.png
+SHA1-Digest: Mp7SJ5vWFfgCIx2OLnk09YPWWOI=
+
+Name: textures/ui/sale_button_borderless_lighthover.png
+SHA1-Digest: Ra6jVPa8mIH/YQoPCsA5BofByBQ=
+
+Name: textures/ui/sale_button_borderless_lighthoverflag.png
+SHA1-Digest: o+o9b7sa6txb62XUFph/qin1+DQ=
+
+Name: textures/ui/sale_button_borderless_lightpressed.png
+SHA1-Digest: GsaVtCNVrM3bDkJKR7bZe415CwE=
+
+Name: textures/ui/sale_button_borderless_lightpressedflag.png
+SHA1-Digest: KQgR3ASr6G88GKUVbJR0yrWnnC0=
+
+Name: textures/ui/scoreboard_list_background.png
+SHA1-Digest: IKQNaTZixR4YbV1bleNWaWAt3w4=
+
+Name: textures/ui/screen_background.png
+SHA1-Digest: sjNj0Frx2pJ1UYJ5XKSqOoi2Wzw=
+
+Name: textures/ui/screen_realms_plus_background.png
+SHA1-Digest: sjNj0Frx2pJ1UYJ5XKSqOoi2Wzw=
+
+Name: textures/ui/screenshot_frame.png
+SHA1-Digest: jA7LeknqMRfo7Nc2GH9lix8yt6w=
+
+Name: textures/ui/second_of_three.png
+SHA1-Digest: JiRP9KGS7RvQdhMEO/p2o+Eypz8=
+
+Name: textures/ui/second_of_two.png
+SHA1-Digest: aW+uEFMXxz34wsGh2zFwSs/NTj4=
+
+Name: textures/ui/selected_hotbar_slot.png
+SHA1-Digest: YVkoW9lOQ4HzCMH/Li9FwhNrsSA=
+
+Name: textures/ui/servers.png
+SHA1-Digest: x8fBYS+1cdNZAQzR+8fhvuyLIoE=
+
+Name: textures/ui/settings_glyph_2x.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/settings_glyph_color_2x.png
+SHA1-Digest: ClFCucTCquO+cfWPjFYiCyDYGJg=
+
+Name: textures/ui/shadow.png
+SHA1-Digest: jaKLMUaDTEj9hDsQh0kZFRbSpl0=
+
+Name: textures/ui/sidebar_icons/button_panel.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/sidebar_icons/side_drawer_button_hover_focused.png
+SHA1-Digest: oiX0NF8/MaoC93OQdgU8aQXlJBk=
+
+Name: textures/ui/sidebar_icons/side_drawer_button_selected.png
+SHA1-Digest: GlNV5HSRLSMQEoMRs6q6EFaZX/I=
+
+Name: textures/ui/sidebar_icons/side_drawer_left_panel.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/sidebar_icons/side_panel_button_hover_focused.png
+SHA1-Digest: nDGyPvbBUTuapQDJm8tj/ucUmdU=
+
+Name: textures/ui/sidebar_icons/side_panel_button_selected.png
+SHA1-Digest: nDGyPvbBUTuapQDJm8tj/ucUmdU=
+
+Name: textures/ui/sidebar_icons/side_panel_divider.png
+SHA1-Digest: GlNV5HSRLSMQEoMRs6q6EFaZX/I=
+
+Name: textures/ui/slider_background.png
+SHA1-Digest: 7qKiHU5RumeDWsoNg/CgDT9zgyk=
+
+Name: textures/ui/slider_background_hover.png
+SHA1-Digest: hO6otPLFkzZpvZgSe6ScURq4sqw=
+
+Name: textures/ui/slider_border.png
+SHA1-Digest: KYVO7sVZUyOtpAFJk21x3QMndT8=
+
+Name: textures/ui/slider_button_default.png
+SHA1-Digest: a6gvLCeMMN5t0BAc7NHG5fYnVp4=
+
+Name: textures/ui/slider_button_hover.png
+SHA1-Digest: DVeVbFWHWj7a5ctcV/ze3g0aTSQ=
+
+Name: textures/ui/slider_button_indent.png
+SHA1-Digest: a6gvLCeMMN5t0BAc7NHG5fYnVp4=
+
+Name: textures/ui/slider_button_locked.png
+SHA1-Digest: adWoMuntZ+AVOUROWukJahIk/Oc=
+
+Name: textures/ui/slider_locked_transparent_fade.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/slider_progress.png
+SHA1-Digest: gPCpFlSMYfTWVpopOsl6I7AWl00=
+
+Name: textures/ui/slider_progress_hover.png
+SHA1-Digest: hO6otPLFkzZpvZgSe6ScURq4sqw=
+
+Name: textures/ui/slider_step_background.png
+SHA1-Digest: JQ4/YhETPlMOe/vcYjrnmNCG/zM=
+
+Name: textures/ui/slider_step_progress.png
+SHA1-Digest: JQ4/YhETPlMOe/vcYjrnmNCG/zM=
+
+Name: textures/ui/slider_step_progress_hover.png
+SHA1-Digest: q0RVbf5GMkc7wj1wSQbZKuSR8vw=
+
+Name: textures/ui/slots_bg.png
+SHA1-Digest: adWoMuntZ+AVOUROWukJahIk/Oc=
+
+Name: textures/ui/slow_falling_effect.png
+SHA1-Digest: fXVkOld8Q9VnSyKR9WQfVxAJcW8=
+
+Name: textures/ui/slowness_effect.png
+SHA1-Digest: G79e1gcPvPrtrFhiF/HNEvG7/8Y=
+
+Name: textures/ui/smithing_icon.png
+SHA1-Digest: tKE4qMe4Qe1n6ck1QV7dOksOGl8=
+
+Name: textures/ui/sneak.png
+SHA1-Digest: CvVxN7MWuvqLmxnkwxSx060dZzQ=
+
+Name: textures/ui/sneak_pressed.png
+SHA1-Digest: s+7SAo/2XJV06+3U8If6cL2q0KU=
+
+Name: textures/ui/solidtransparency.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/sound_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/sound_glyph_color.png
+SHA1-Digest: aFTLVfLc4FFi/0f3wfJCxlotbOI=
+
+Name: textures/ui/speed_effect.png
+SHA1-Digest: EJMJ2ob23TupM3qtO3swnG1a/8c=
+
+Name: textures/ui/sprint.png
+SHA1-Digest: PfSDVx7c0qlXAqdO6ZXH1hb+o/U=
+
+Name: textures/ui/sprint_pressed.png
+SHA1-Digest: VXxXzduHSZYNnlgbGClxp6wyC+k=
+
+Name: textures/ui/spyglass_flat.png
+SHA1-Digest: Gxt9JSSLk+XxgO3njmBBEAq5ZO4=
+
+Name: textures/ui/square_image_border_white.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/storageIcon.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/storageIconColor.png
+SHA1-Digest: JgV/Eyig8H1biuxe9k9UDOyHksE=
+
+Name: textures/ui/store_background.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/store_banner_no_border.png
+SHA1-Digest: xg1KbPfiUztDiu/sLjx+8uNisj0=
+
+Name: textures/ui/store_filter_icon.png
+SHA1-Digest: VBo42BSqH6SSnij27z23rqUFbXk=
+
+Name: textures/ui/store_sort_icon.png
+SHA1-Digest: bVaZWLG+E4PmQuDZ0pabPnMYyAg=
+
+Name: textures/ui/strength_effect.png
+SHA1-Digest: bfnB4ZJKfJvjVnDJulkChpgARAY=
+
+Name: textures/ui/strikethru.png
+SHA1-Digest: DTAvRdnHF/viMkh3tbsSEXJ4KTI=
+
+Name: textures/ui/subscription_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/subscription_glyph_color.png
+SHA1-Digest: qo+l4SVNs7NZpTqOOkBitX65UwA=
+
+Name: textures/ui/text.png
+SHA1-Digest: sbyRFgt9kdrNoCVBR0O+1ow/F1s=
+
+Name: textures/ui/text_edit_base.png
+SHA1-Digest: auESyI/yM7pyaxUC9HWx/MvZDOs=
+
+Name: textures/ui/text_edit_hover.png
+SHA1-Digest: rS3dO1aiHySAdx3B36fghcXMdIs=
+
+Name: textures/ui/text_label_box.png
+SHA1-Digest: 0DoFfFvMYkT2Y9l3yVB1irwAsTk=
+
+Name: textures/ui/thin_dialog.png
+SHA1-Digest: IAIXkmimtBlCpONx/xLL9PpwoRE=
+
+Name: textures/ui/time_1sunrise.png
+SHA1-Digest: J8TmfekJ/Cy4lP9qEbDl30hWDHY=
+
+Name: textures/ui/time_2day.png
+SHA1-Digest: UaMheOpn0CwkdP8Koa0hXhgBac4=
+
+Name: textures/ui/time_3noon.png
+SHA1-Digest: RwiP5z7uOCnwvBrZeGQp0hmrJtw=
+
+Name: textures/ui/time_4sunset.png
+SHA1-Digest: b5f58sMSWdsXlWEvaumC2AP1TAo=
+
+Name: textures/ui/time_5night.png
+SHA1-Digest: hPbfHV94swT5qoUqElftggako/4=
+
+Name: textures/ui/time_6midnight.png
+SHA1-Digest: x2CKScsawKCQ2QDd88ih6Ndpp6s=
+
+Name: textures/ui/title.png
+SHA1-Digest: Hpq1O4S8xqj+FWRR76wMpbtmGSM=
+
+Name: textures/ui/toggle_off.png
+SHA1-Digest: H5mgCxI5mu0+geIOPGDvZ3lmtqY=
+
+Name: textures/ui/toggle_off_hover.png
+SHA1-Digest: H5mgCxI5mu0+geIOPGDvZ3lmtqY=
+
+Name: textures/ui/toggle_on.png
+SHA1-Digest: EmfnW/m3H8lRm13cTNmYo5TmbMM=
+
+Name: textures/ui/toggle_on_hover.png
+SHA1-Digest: EmfnW/m3H8lRm13cTNmYo5TmbMM=
+
+Name: textures/ui/toolbar_background.png
+SHA1-Digest: 99Vlt3aTKMqhL034sS85H68UiI4=
+
+Name: textures/ui/touchScrollBox.png
+SHA1-Digest: 2Z8N5pZJsa0V8X09SYwpy5MYKkU=
+
+Name: textures/ui/touch_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/touch_glyph_color.png
+SHA1-Digest: 969+HXPhlSeQpRW5VJuLUirVfxc=
+
+Name: textures/ui/up_arrow.png
+SHA1-Digest: 02Uf8fOduEueI8qNgelRYI5QwQA=
+
+Name: textures/ui/video_glyph.png
+SHA1-Digest: dhoUclNYfiKOOE3OMbsh3giun5M=
+
+Name: textures/ui/video_glyph_color.png
+SHA1-Digest: ITGORFf/v/aTbM5ODp7HNZOuH5w=
+
+Name: textures/ui/village_hero_effect.png
+SHA1-Digest: ymdYyfeefdTBM3KUm8Oy8zqciYY=
+
+Name: textures/ui/water_breathing_effect.png
+SHA1-Digest: LjN2fMKOEDndqdPldpiaKvm+TPo=
+
+Name: textures/ui/waterascend.png
+SHA1-Digest: NwhnFWCrO8CUsP4kMKVa91QDafQ=
+
+Name: textures/ui/waterascend_pressed.png
+SHA1-Digest: YzmZzOCSzFxcbdO1A/UW0QHZPcU=
+
+Name: textures/ui/waterdescend.png
+SHA1-Digest: TXcb2CyYZQo8aBFotxAm0f+fVk4=
+
+Name: textures/ui/waterdescend_pressed.png
+SHA1-Digest: J1UKTPLZ52g3RnInJnpQdat0Ogw=
+
+Name: textures/ui/weakness_effect.png
+SHA1-Digest: MeK7O2nywSaVVdj/q1CblKZm4mI=
+
+Name: textures/ui/weather_clear.png
+SHA1-Digest: iI02seZNR5J5YMh80/STRxjnHLI=
+
+Name: textures/ui/weather_rain.png
+SHA1-Digest: qyP/gzCivzWyjikQxEzAqwMnwXQ=
+
+Name: textures/ui/weather_thunderstorm.png
+SHA1-Digest: eJ4nWON0LGSB9AL0CO+Nhe8xIuU=
+
+Name: textures/ui/whiteArrow.png
+SHA1-Digest: 6RgXTx70EccthBpdhUX7wbqBkFo=
+
+Name: textures/ui/whiteArrow2.png
+SHA1-Digest: HWyxETN9vxfekiOsF006HMtpmFU=
+
+Name: textures/ui/white_background.png
+SHA1-Digest: jYXpM1euDE8+5BAHEE1XLQjfhEk=
+
+Name: textures/ui/white_bg.png
+SHA1-Digest: ovyQ2aeYcYIR7ESkOfVJfcRHxCU=
+
+Name: textures/ui/white_slider_progress.png
+SHA1-Digest: NhZg0WrdbCq8m8L4J0i8gOD6TG8=
+
+Name: textures/ui/whiteline.png
+SHA1-Digest: OB21AKiO041VBlNXg/c9E2ucqyw=
+
+Name: textures/ui/wither_effect.png
+SHA1-Digest: MA8tqb89AzqrQKZeXNDsWQGcOTY=
+
+Name: textures/ui/world_glyph.png
+SHA1-Digest: YaqvqNk/VjOyCh+m+jEM9xVS3HE=
+
+Name: textures/ui/world_glyph_color.png
+SHA1-Digest: el8Ooa+S0oX2Wj+G/Wtjo8H0hGY=
+
+Name: textures/ui/worldsIcon.png
+SHA1-Digest: CKB3EhX3AuHvFhl2AGoVVZjbjOs=
+
+Name: ui/auto_save_info_screen.json
+SHA1-Digest: pl6gKgnEbpBoi3MTdKGy965H1yA=
+
+Name: ui/chat_screen.json
+SHA1-Digest: tQgWK8ghuPUr8U5DR/kNp4FC3uw=
+
+Name: ui/debug_screen.json
+SHA1-Digest: IRzYSVy7tPZiOnX+FASqdVx65No=
+
+Name: ui/pause_screen.json
+SHA1-Digest: ezaZLIIE88o6mYThXQxFZGR3Bxs=
+
+Name: ui/play_screen.json
+SHA1-Digest: CyPmRX19Dvbise/XOezmaKyOmLg=
+
+Name: ui/settings_sections/world_section.json
+SHA1-Digest: kqv8VCBSVI1w+ywdge/K4sii+s4=
+
+Name: ui/start_screen.json
+SHA1-Digest: O8ZdkoqJcqm6inWwdL6K1Ac5rA8=
+
+Name: ui/structure_editor_screen.json
+SHA1-Digest: yYSz8AZJFujmYJBEH5mci+vkyQQ=
+
+Name: 备注(简中)/使用协议/补充协议.txt
+SHA1-Digest: Yv2YuhHD3sW7BNJmmhTretMXwf8=
+
+Name: 备注(简中)/部分介绍/font文件夹说明.txt
+SHA1-Digest: Kd6IIF3CRLGK3KZRrUK/Mxrc7KM=
+
+Name: 备注(简中)/部分介绍/subpack文件夹说明.txt
+SHA1-Digest: 1hMdgRIzzbQUqQukyjK3teFjXTU=
+
+Name: 备注(简中)/部分介绍/texture文件夹说明.txt
+SHA1-Digest: giyElw3+/AQIYekMq20vCOPLZDA=
+
+Name: 备注(简中)/部分介绍/ui文件介绍.txt
+SHA1-Digest: sRmo26vGNJOdaFVTwLQW9nedet8=
+
+Name: 备注(简中)/部分介绍/ui文件夹说明.txt
+SHA1-Digest: 3cGJJXC4mxtRtkEIv6Z6tBbvpGA=
+
+Name: 备注(简中)/部分教程/1.主页背景图片更改.txt
+SHA1-Digest: 5DN6CPAWqBt+MsfWJn62QXyr774=
+
+Name: 备注(简中)/部分教程/2.主页音乐添加.txt
+SHA1-Digest: FO8+FqHeS+sAh2+7YdlmWEMyoiw=
+
+Name: 备注(简中)/部分教程/3.个人资料背景图片更改.txt
+SHA1-Digest: 6wkxZ2VoyDfvdCOoeY2OkRSxXrU=
+
+Name: 备注(简中)/部分教程/4.主题切换教程.txt
+SHA1-Digest: V+dw3eGhPF18Cdu+dGpx+GY+aQ8=
+
+Name: 备注(简中)/部分教程/5.跨存档建筑教程.txt
+SHA1-Digest: YiwF9BAguJhFhgb7vpontiQfrM8=
+
