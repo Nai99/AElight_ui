@@ -1,0 +1,16 @@
+{
+  "ui_defs": [
+    "ui/extra_json/start_screen/images_scroll_panel.json",
+    "ui/extra_json/start_screen/bar.json",
+    "ui/extra_json/ui_mui_common.json",
+    "ui/extra_json/animations_mui.json",
+    "ui/extra_json/start_screen/about_section.json",
+    "ui/extra_json/play_screen/world_sections.json",
+    "ui/extra_json/setting_screen/setting_options.json",
+    "ui/extra_json/setting_screen/setting_sections.json",
+    "ui/extra_json/command_block_screen/command_panel.json",
+    "ui/extra_json/item_list.json",
+    "ui/extra_json/how_to_play_screens/options.json",
+    "ui/extra_json/how_to_play_screens/sections.json"
+  ]
+}

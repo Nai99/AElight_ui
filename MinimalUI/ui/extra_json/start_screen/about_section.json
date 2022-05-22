@@ -1,0 +1,367 @@
+/*
+  Copyright © 2020-2021 YC_Lemon_NinG
+  Date: 2021-2-6
+*/
+{
+  "namespace": "mui_about_section",
+
+  "text": {
+    "type": "label",
+    "text": "text文本测试",
+    "alpha": "$alpha",
+    "font_scale_factor": 1.5,
+    "size": [ "default", "default" ],
+    "color": "yellow"
+  },
+  
+  "text_panel": {
+    "type": "panel",
+    "controls": [
+      { "t1@text": {} },
+      { "t2@text": { "offset": [ 0.1, 0 ], "$alpha": 0.9 } },
+      { "t3@text": { "offset": [ 0.2, 0 ], "$alpha": 0.8 } },
+      { "t4@text": { "offset": [ 0.3, 0 ], "$alpha": 0.7 } },
+      { "t5@text": { "offset": [ 0.4, 0 ], "$alpha": 0.6 } },
+      { "t6@text": { "offset": [ 0.5, 0 ], "$alpha": 0.5 } },
+      { "t7@text": { "offset": [ 0.6, 0 ], "$alpha": 0.4 } },
+      { "t8@text": { "offset": [ 0.7, 0 ], "$alpha": 0.3 } },
+      { "t9@text": { "offset": [ 0.8, 0 ], "$alpha": 0.2 } },
+      { "t10@text": { "offset": [ 0.9, 0 ], "$alpha": 0.1 } },
+      { "t11@text": { "offset": [ 0, 0.1 ], "$alpha": 0.9 } },
+      { "t12@text": { "offset": [ 0, 0.2 ], "$alpha": 0.8 } },
+      { "t13@text": { "offset": [ 0, 0.3 ], "$alpha": 0.7 } },
+      { "t14@text": { "offset": [ 0, 0.4 ], "$alpha": 0.6 } },
+      { "t15@text": { "offset": [ 0, 0.5 ], "$alpha": 0.5 } },
+      { "t16@text": { "offset": [ 0, 0.6 ], "$alpha": 0.4 } },
+      { "t17@text": { "offset": [ 0, 0.7 ], "$alpha": 0.3 } },
+      { "t18@text": { "offset": [ 0, 0.8 ], "$alpha": 0.2 } },
+      { "t19@text": { "offset": [ 0, 0.9 ], "$alpha": 0.1 } },
+      { "t20@text": { "offset": [ 0, -0.1 ], "$alpha": 0.9 } },
+      { "t21@text": { "offset": [ 0, -0.2 ], "$alpha": 0.8 } },
+      { "t22@text": { "offset": [ 0, -0.3 ], "$alpha": 0.7 } },
+      { "t23@text": { "offset": [ 0, -0.4 ], "$alpha": 0.6 } },
+      { "t24@text": { "offset": [ 0, -0.5 ], "$alpha": 0.5 } },
+      { "t25@text": { "offset": [ 0, -0.6 ], "$alpha": 0.4 } },
+      { "t26@text": { "offset": [ 0, -0.7 ], "$alpha": 0.3 } },
+      { "t27@text": { "offset": [ 0, -0.8 ], "$alpha": 0.2 } },
+      { "t28@text": { "offset": [ 0, -0.9 ], "$alpha": 0.1 } },
+      { "t29@text": { "offset": [ -0.1, 0 ], "$alpha": 0.9 } },
+      { "t30@text": { "offset": [ -0.2, 0 ], "$alpha": 0.8 } },
+      { "t31@text": { "offset": [ -0.3, 0 ], "$alpha": 0.7 } },
+      { "t32@text": { "offset": [ -0.4, 0 ], "$alpha": 0.6 } },
+      { "t33@text": { "offset": [ -0.5, 0 ], "$alpha": 0.5 } },
+      { "t34@text": { "offset": [ -0.6, 0 ], "$alpha": 0.4 } },
+      { "t35@text": { "offset": [ -0.7, 0 ], "$alpha": 0.3 } },
+      { "t36@text": { "offset": [ -0.8, 0 ], "$alpha": 0.2 } },
+      { "t37@text": { "offset": [ -0.9, 0 ], "$alpha": 0.1 } }
+    ]
+  },
+
+  /////////////
+
+  "about_title": {
+    "type": "label",
+    "text_alignment": "left",
+    "font_scale_factor": 1.5,
+    "size": [ "default", "default" ],
+    "text": "$title_text",
+    "$color_t|default": "$about_title_color",
+    "font_type": "smooth",
+    "color": "$color_t"
+  },
+  
+  "label_c": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "text": "$body_text",
+    "$color_c|default": "$box_text_color",
+    "font_type": "smooth",
+    "color": "$color_c"
+  },
+  
+  "line": {
+    "type": "image",
+    "nineslice_size": 1,
+    "texture": "extra_textures/ui/light_blue_bar"
+  },
+  
+  "logo": {
+    "type": "image",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ "default", 53 ],
+    "texture": "extra_textures/ui/logo"
+  },
+  
+  ///////////
+  //内容介绍//
+  //////////
+          
+  "description_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", 210 ],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "logo@logo": {}
+      },
+      {
+        "title@about_title": {
+          "$title_text": "关于材质"
+        }
+      },
+      {
+        "t1@label_c": {
+          "$body_text": "Minimal UI(MUI)，一款仿Win10扁平化风格的UI资源包，目前支持MCBE1.14+"
+        }
+      },
+      {
+        "t2@label_c": {
+          "$body_text": "作者：YC_Lemon_NinG(redstoner_1075)，因学业关系，资源包会不定期更新，无材质包交流群\n未经允许不得二次修改发布，不得用于商业行为。\n如有疑问或建议可私聊\nB站uid：§l96640878\nCopyright © 2020-2021 YC_Lemon_NinG\nDate:2021/11/25"
+        }
+      },
+      {
+        "square1": {
+          "type": "panel",
+          "size": [ 4, 4 ]
+        }
+      },
+      {
+        "t3@label_c": {
+          "$body_text": "§o[其它资源]：\n§r§l ⒈ocd材质包(链接详见B站@梵蒂冈_273的视频简介)\n ⒉1.16更新(详见Minecraft官网)\n ⒊基岩版红石交流群：792687267"
+        }
+      },
+      {
+        "square0": {
+          "type": "panel",
+          "size": [ 2, 2 ]
+        }
+      },
+      {
+        "line_panel": {
+          "type": "panel",
+          "size": [ "100%", 1 ],
+          "controls": [
+            {
+              "line@line": {
+                "size": [ "100%-2px", 1 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  ///////////
+  //更新日志//
+  //////////
+  
+  "date_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", 20 ],
+    "orientation": "horizontal",
+    "controls": [
+      { 
+        "date_small": {
+          "font_scale_factor": 1.8,
+          "color": "$about_title_color",
+          "type": "label",
+          "size": [ "default", "default" ],
+          "text": "$month"
+         }
+      },
+      {
+        "date_small": {
+          "type": "panel",
+          "size": [ "fill", 20 ],
+          "controls": [
+            { 
+              "date": {
+                "type": "label",
+                "size": [ "100%", 10 ],
+                "text_alignment": "left",
+                "anchor_from": "bottom",
+                "anchor_to": "bottom",
+                "color": "$about_title_color",
+                "font_type": "smooth",
+                "text": "$day"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "update_log": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "square0": {
+          "type": "panel",
+          "size": [ 2, 2 ]
+        }
+      },
+      { 
+        "u_t@about_title": {
+          "$title_text": "近期更新"
+        }
+      },
+      {
+        "square1": {
+          "type": "panel",
+          "size": [ 2, 2 ]
+        }
+      },
+      {
+        "date_3@date_panel": {
+          "$month": "§oxx",
+          "$day": "/xx"
+        }
+      },
+      {
+        "u3@label_c": {
+          "$body_text": "§lv0.02.01bate:§r\n再次修改了阴影框\n新的存档选择界面"
+        }
+      },
+      {
+        "square3": {
+          "type": "panel",
+          "size": [ 2, 2 ]
+        }
+      },
+      {
+        "date_1@date_panel": {
+          "$month": "§o11",
+          "$day": "/25"
+        }
+      },
+      {
+        "u1@label_c": {
+          "$body_text": "§lv0.01.01bate:§r\n删除了背景\n修复了进出入动画\n修复了panel消失的bug\n更改了阴影框\n增加了关于界面(更新日志)和一些没用的东西"
+        }
+      },
+      {
+        "square2": {
+          "type": "panel",
+          "size": [ 2, 2 ]
+        }
+      },
+      {
+        "date_2@date_panel": {
+          "$month": "§o10",
+          "$day": "/30"
+        }
+      },
+      {
+        "u2@label_c": {
+          "$body_text": "§lv0.01.00bate内测:§r\n第一个版本，更新了歪比巴卜"
+        }
+      }/*,
+      {
+        "a@text_panel": {
+          "size": [ 70, 20 ]
+        }
+      }*/
+    ]
+  },
+        
+  "section_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "description_panel@mui_about_section.description_panel": {
+        }
+      },
+      {
+        "update_log@mui_about_section.update_log": {
+        }
+      }
+    ]
+  },
+  
+  "main_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      { "bg@bg": {}},
+      { "section_scroll@section_scroll": {}
+      }
+    ]
+  },
+  
+  "bg": {
+    "type": "image",
+    "alpha": 0.7,
+    "texture": "extra_textures/ui/option_0",
+    "size": [ "100%", "100%" ],
+    "nineslice_size": 1
+  },
+  
+  "section_scroll@ui_mui_common.scrolling_panel": {
+    "size": [ "100%", "100%" ],
+    "$show_background": false,
+    "$scroll_track_size": [ 5, "100% - 4px" ],
+    "$scroll_track_offset|default": [ -4, 2 ],
+    "$scrolling_content": "mui_about_section.section_panel"
+  },
+
+  "About_toggle@ui_mui_common.mui_toggle_button_control": {
+    "$toggle_name": "about_toggle",
+    "$toggle_state_binding_name": "#about_toggle"
+  },
+  
+  "logo_button@ui_mui_common.mui_toggle_button": {
+    "$option_binding_name": "about_toggle",
+    "$toggle_default": "extra_textures/ui/logo_d",
+    "$toggle_pressed": "extra_textures/ui/logo_p_h",
+    "$layout_size": [ "100% - 2px", "100% - 2px" ],
+    "$control_name": "mui_about_section.About_toggle"
+  },
+  
+  "about_section_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "mui_about_section.About_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "panel_box@ui_mui_common.panel_box": {
+          "$box_background_texture": "$about_bg",
+          "$bar_title_icon": "extra_textures/ui/about_button_0",
+          "size": [ 256, 168 ],
+          "$background_alpha": 0.7,
+          "$show_exit_button": false,
+          "$title_color": "black",
+          "$bar_title": "关于",
+          "$panel_content": "mui_about_section.main_panel",
+          "layer": 5
+        }
+      },
+      {
+        "blank": {
+          "type": "input_panel",
+          "size": [ "100% - 24px", "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "consume_hover_events": true,
+          "layer": 1
+        }
+      }
+    ]
+  }
+  
+}

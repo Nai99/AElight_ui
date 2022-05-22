@@ -1,0 +1,1 @@
+用于存放UI的json文件，位于本包根目录/UI，需要注意的是该文件夹与texture/UI不同，texture/UI主要存放UI的图像文件

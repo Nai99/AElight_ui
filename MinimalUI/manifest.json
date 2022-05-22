@@ -1,0 +1,17 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Minimal UI For MCBE\ndesigned by YC_Lemon_NinG\n全新的窗口式UI界面",
+      "name" : "§lMinimal UI",
+      "uuid" : "ecf0b356-204c-4821-bf16-9eb06d6ea33a",
+      "version" : [ 0, 02, 01 ]
+   },
+   "modules" : [
+      {
+         "description" : "Minimal UI",
+         "type" : "resources",
+         "uuid" : "a16868f4-1972-43bc-87a5-0129df798c02",
+         "version" : [ 0, 02, 01 ]
+      }
+   ]
+}

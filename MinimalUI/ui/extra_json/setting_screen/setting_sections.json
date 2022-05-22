@@ -1,0 +1,175 @@
+/*
+  Copyright © 2020-2021 YC_Lemon_NinG
+  Date: 2021-2-6
+*/
+{
+  "namespace": "setting_sections",
+  
+  
+  
+  // Keyboard section
+
+  "keyboard_and_mouse_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "$keymapping_grid_dimension": "#keyboard_standard_grid_dimension",
+    "$keymapping_collection": "keyboard_standard_collection",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "keyboard_and_mouse_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "option_slider_0@settings_common.option_slider": {
+          "$option_label": "#keyboard_mouse_sensitivity_slider_label",
+          "$slider_name": "keyboard_mouse_sensitivity",
+          "$slider_value_binding_name": "#keyboard_mouse_sensitivity",
+          "$slider_tts_text_value": "#keyboard_mouse_sensitivity_text_value",
+          "$option_enabled_binding_name": "#keyboard_mouse_sensitivity_enabled",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_1@settings_common.option_slider": {
+          "ignored": "(not $is_holographic)",
+          "$option_label": "#vr_ui_mouse_sensitivity_slider_label",
+          "$slider_name": "vr_ui_mouse_sensitivity",
+          "$slider_value_binding_name": "#vr_ui_mouse_sensitivity",
+          "$slider_tts_text_value": "#vr_ui_mouse_sensitivity_text_value",
+          "$option_enabled_binding_name": "#vr_ui_mouse_sensitivity_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_0@settings_common.option_toggle": {
+          "$option_label": "options.invertYAxis",
+          "$option_binding_name": "#keyboard_mouse_invert_y_axis",
+          "$option_enabled_binding_name": "#keyboard_mouse_invert_y_axis_enabled",
+          "$toggle_name": "keyboard_mouse_invert_y_axis",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        "option_toggle_1@settings_common.option_toggle": {
+          "$option_label": "options.autojump",
+          "$option_binding_name": "#keyboard_mouse_autojump",
+          "$option_enabled_binding_name": "#keyboard_mouse_autojump_enabled",
+          "$toggle_name": "keyboard_mouse_autojump",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        "option_toggle_2@settings_common.option_toggle": {
+          "ignored": true, // Remove this line when Options::TOGGLE_CROUCH actually affects crouch behavior (User Story 30117)
+          "$option_label": "options.toggleCrouch",
+          "$option_binding_name": "#keyboard_mouse_toggle_crouch",
+          "$option_enabled_binding_name": "#keyboard_mouse_toggle_crouch_enabled",
+          "$toggle_name": "keyboard_mouse_toggle_crouch"
+        }
+      },
+      {
+        "option_toggle_full_keyboard_gameplay@settings_common.option_toggle": {
+          "$option_label": "options.fullKeyboardGameplay",
+          "$option_binding_name": "#keyboard_show_full_keyboard_options",
+          "$option_enabled_binding_name": "#keyboard_show_full_keyboard_options_enabled",
+          "$toggle_name": "keyboard_show_full_keyboard_options",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        "option_toggle_hide_keyboard_tooltips@settings_common.option_toggle": {
+          "ignored": "(not $education_edition)",
+          "$option_label": "options.hideKeyboardTooltips",
+          "$option_binding_name": "#hide_keyboard_tooltips",
+          "$option_enabled_binding_name": "#hide_keyboard_tooltips_enabled",
+          "$toggle_name": "hide_keyboard_tooltips",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        // Section that shows the keymappings for the standard keyboard layout
+        "keyboard_section": {
+          "type": "stack_panel",
+          "size": [ "100%", "100%c" ],
+          "bindings": [
+            {
+              // Hide this section when another keyboard type/layout is enabled
+              "binding_name": "#keyboard_show_standard_keyboard_options",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "option_group_label@settings_common.option_group_label": {
+                "$text": "options.keyboardLayout"
+              }
+            },
+            {
+              "keyboard_keymapping_grid@controls_section.keymapping_grid": {}
+            }
+          ]
+        }
+      },
+      {
+        // Section that shows the keymappings for the full keyboard layout
+        "full_keyboard_section": {
+          "type": "stack_panel",
+          "size": [ "100%", "100%c" ],
+          "bindings": [
+            {
+              // Show full keyboard section when the full keyboard toggle is enabled
+              "binding_name": "#keyboard_show_full_keyboard_options",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "option_slider_smooth_rotation_speed@settings_common.option_slider": {
+                "$option_label": "#keyboard_smooth_rotation_speed_slider_label",
+                "$slider_name": "keyboard_smooth_rotation_speed",
+                "$slider_value_binding_name": "#keyboard_smooth_rotation_speed",
+                "$slider_tts_text_value": "#keyboard_smooth_rotation_speed_text_value",
+                "$option_enabled_binding_name": "#keyboard_smooth_rotation_speed_enabled",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$label_bindings": [
+                  {
+                    "binding_name": "$option_label"
+                  }
+                ]
+              }
+            },
+            {
+              "full_keyboard_label@settings_common.option_group_label": {
+                "$text": "options.fullKeyboardLayout"
+              }
+            },
+            {
+              "keyboard_full_keymapping_grid@controls_section.full_keymapping_grid": {}
+            }
+          ]
+        }
+      },
+      {
+        "reset_button@settings_common.action_button": {
+          "$pressed_button_name": "button.reset_keyboard_bindings",
+          "$button_text": "controllerLayoutScreen.resetAllBindings",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      }
+    ]
+  },

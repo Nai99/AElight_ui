@@ -1,9 +1,10 @@
-﻿
+
 accessibility.chat.tts.gamepad.back=點擊 %s 返回	
 accessibility.chat.tts.gamepad.exitChat=點擊 %s 退出聊天	
 accessibility.chat.tts.gamepad.sendMessage=點擊 %s 發送消息	
 accessibility.chat.tts.says=%s 說 %s	
-
+sidebar.characterCreator=新建角色	
+sidebar.classicSkins=自定義皮膚	
 action.hint.exit.boat=點擊“跳躍”離開船	
 action.hint.exit.minecart=點擊“跳躍”離開礦車	
 action.hint.exit.pig=點擊潛行下馬	
@@ -63,11 +64,11 @@ chestScreen.header.small=寶箱
 commands.save.failed=保存失敗：%1$s	
 commands.save.start=保存中……	
 commands.save.success=已保存夢境	
-playscreen.beta_worlds=夢境	#
-playscreen.beta_legacy_worlds=舊夢境	#
+playscreen.beta_worlds=夢境	
+playscreen.beta_legacy_worlds=舊夢境	
 
 
-
+xbl.marketplace.account.error.body.nobutton=正在嘗試連接上網絡
 
 connect.authorizing=登入中...	
 connect.connecting=正在連接伺服器...	
@@ -215,22 +216,22 @@ deathScreen.title=你已迷失在夢境
 deathScreen.title.hardcore=遊戲結束！	
 deathScreen.titleScreen=標題畫面
 	
-commandBlockScreen.blockType=方塊類型：	#
-commandBlockScreen.blockType.impulse=脈衝	#
-commandBlockScreen.blockType.chain=連鎖	#
-commandBlockScreen.blockType.repeat=迴圈	#
-commandBlockScreen.condition=發生錯誤時：	#
-commandBlockScreen.condition.conditional=不執行下個命令方塊	#
-commandBlockScreen.condition.unconditional=仍執行下個命令方塊	#
-commandBlockScreen.redstone=控制：	#
-commandBlockScreen.redstone.needs_redstone=需要紅石	#
-commandBlockScreen.redstone.always_on=始終活動	#
-commandBlockScreen.tickDelay=延遲執行:	#
-commandBlockScreen.executeFirstTick=執行第一個已選項	#
-commandBlockScreen.displayOutputMode=O	#
-commandBlockScreen.hideOutputMode=X	#
-commandBlockScreen.hoverNote=懸停說明	#
-commandBlockScreen.title=命令方塊	#
+commandBlockScreen.blockType=方塊類型：	
+commandBlockScreen.blockType.impulse=脈衝	
+commandBlockScreen.blockType.chain=連鎖	
+commandBlockScreen.blockType.repeat=迴圈	
+commandBlockScreen.condition=發生錯誤時：	
+commandBlockScreen.condition.conditional=不執行下個命令方塊	
+commandBlockScreen.condition.unconditional=仍執行下個命令方塊	
+commandBlockScreen.redstone=控制：	
+commandBlockScreen.redstone.needs_redstone=需要紅石	
+commandBlockScreen.redstone.always_on=始終活動	
+commandBlockScreen.tickDelay=延遲執行:	
+commandBlockScreen.executeFirstTick=執行第一個已選項	
+commandBlockScreen.displayOutputMode=O	
+commandBlockScreen.hideOutputMode=X	
+commandBlockScreen.hoverNote=懸停說明	
+commandBlockScreen.title=命令方塊	
 
 disconnectionScreen.editionVersionMismatch.title=無法加載夢境。	
 disconnectionScreen.futureVersion=無法加載高版本夢境。	
@@ -1848,7 +1849,7 @@ pauseScreen.error.noIpAddress=沒有找到IP
 pauseScreen.error.noPort=未發現端口	
 pauseScreen.title=遊戲暫停	
 pauseScreen.betaFeedback=測試版回饋	
-pauseScreen.xboxLiveDisconnect=您的意識被干擾了。您需要在主菜單中登錄，重新進入夢境，才能邀請更多的玩家。	
+pauseScreen.xboxLiveDisconnect=您的意識受到未知干擾，請重新連接夢境。
 pauseScreen.joinCode.Label=加入代碼	
 pauseScreen.joinCode.Icon=%3 加入代碼圖示，第 %1 個，共 %2 個	 Example: Apple join code icon, 2 of 5	
 

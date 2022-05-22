@@ -1,0 +1,3 @@
+1.请确认更改图片为PNG格式【建议为横屏图片】；
+2.将图片重命名为 profile_bg.png ；
+3.移动到 resource_packs > AElightUI > subpacks > jiekou1/jiekou2/jiekou3/jiekou4/jiekou5 > textures > UI 文件夹里，对本材质包原图片进行替换

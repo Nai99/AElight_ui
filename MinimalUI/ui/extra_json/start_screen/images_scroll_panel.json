@@ -1,0 +1,179 @@
+/*
+  Copyright © 2020-2020 YC_Lemon_NinG
+  Date: 2020-11-24
+*/
+{
+  "namespace": "images_scroll",
+  
+  /////////////
+  //图片和文字//
+  ///////////
+  
+  "img_0": {
+    "type": "image",
+    "layer": 7,
+    "texture": "extra_textures/images_play/img_0",
+    "alpha": "@animations_mui.img_0_anim_0"
+  },
+
+  "img_1": {
+    "type": "image",
+    "layer": 7,
+    "texture": "extra_textures/images_play/img_1",
+    "alpha": "@animations_mui.img_1_anim_0"
+  },
+
+  "img_2": {
+    "type": "image",
+    "layer": 7,
+    "texture": "extra_textures/images_play/img_2",
+    "alpha": "@animations_mui.img_2_anim_0"
+  },
+  
+  "img_3": {
+    "type": "image",
+    "layer": 7,
+    "texture": "extra_textures/images_play/img_3",
+    "alpha": "@animations_mui.img_3_anim_0"
+  },
+  
+  "label_black_background": {
+    "type": "image",
+    "layer": 8,
+    "texture": "extra_textures/ui/black_bg",
+    "nineslice_size": 1
+  },
+  
+  "text_0": {
+    "type": "label",
+    "text": "1.16下界更新！\n加入了新的生物、生物群系和方块",
+    "color": "yellow",
+    "layer": 9,
+    "font_type": "smooth",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "default", "100%" ],
+    "alpha": "@animations_mui.img_0_anim_0"
+  },
+  
+  "text_1": {
+    "type": "label",
+    "text": "红石交流群！\n云集国内众多世界级红石大佬",
+    "color": "yellow",
+    "layer": 9,
+    "font_type": "smooth",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "default", "100%" ],
+    "alpha": "@animations_mui.img_1_anim_0"
+  },
+  
+  "text_2": {
+    "type": "label",
+    "text": "ocd材质包！\n延续ocd的经典设计，32x HD，线条分明",
+    "color": "yellow",
+    "layer": 9,
+    "font_type": "smooth",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "default", "100%" ],
+    "alpha": "@animations_mui.img_2_anim_0"
+  },
+  
+  "text_3": {
+    "type": "label",
+    "text": "Minimal UI resources pack\n扁平化设计，清新的全局色调以及半透明UI！",
+    "color": "yellow",
+    "layer": 9,
+    "font_type": "smooth",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "size": [ "default", "100%" ],
+    "alpha": "@animations_mui.img_3_anim_0"
+  },
+  
+  "description_of_img@label_black_background": {
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "text_0@text_0": {}
+      },
+      {
+        "text_1@text_1": {}
+      },
+      {
+        "text_2@text_2": {}
+      },
+      {
+        "text_3@text_3": {}
+      }
+    ]
+  },
+  
+  "img_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "img_0@img_0": {
+          "size": [ "100%","100%" ]
+        }
+      },
+      {
+        "img_1@img_1": {
+          "size": [ "100%","100%" ]
+        }
+      },
+      {
+        "img_2@img_2": {
+          "size": [ "100%","100%" ]
+        }
+      },
+      {
+        "img_3@img_3": {
+          "size": [ "100%","100%" ]
+        }
+      },
+      {
+        "description_of_img_panel": {
+          "size": [ "100%", 20 ],
+          "type": "panel",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "controls": [
+            {
+              "description_of_img@description_of_img": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "scroll_box@ui_mui_common.panel_box": {
+    "$box_background_texture": "extra_textures/ui/image_scroll_background",
+    "$background_alpha": 0.75,
+    "$bar_visible": false,
+    "$bar_title_icon": "",
+    "$title_color": "",
+    "$bar_title": "",
+    "$panel_content": "images_scroll.img_panel"
+  },
+  
+  "images_scroll_panel": {
+    "type": "panel",
+    "size": [ 242,144 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "animation_reset_name": "screen_animation_reset",
+    "anims": [
+	    "@animations_mui.img_exit_animation_push",
+      "@animations_mui.img_exit_animation_pop",
+      "@animations_mui.img_entrance_animation_push",
+      "@animations_mui.img_entrance_animation_pop"
+	  ],
+    "controls": [
+      { "scroll_box@scroll_box": {} }
+    ]
+  }
+  
+}

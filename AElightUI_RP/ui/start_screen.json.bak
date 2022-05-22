@@ -1,0 +1,162 @@
+{
+    "namespace": "start",
+    "start_bottom_label": {
+        "type": "label",
+        "font_type": "OldSmoothFont",
+        "color": "$start_label",
+        "size": [
+            "default",
+            10
+        ]
+    },
+    "mui_version@start_bottom_label": {
+        "text": "AElightUI",
+        "offset": [
+            -8,
+            -3
+        ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right"
+    },
+    "mui_description@start_bottom_label": {
+        "text": "#version",
+        "offset": [
+            8,
+            -8
+        ],
+        "anchor_from": "left_middle",
+        "anchor_to": "bottom_left"
+    },
+    "mui_copyright@start_bottom_label": {
+        "text": "menu.copyright",
+        "offset": [
+            8,
+            -3
+        ],
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle"
+    },
+    "pack_text_panel": {
+        "size": [
+            "100%",
+            30
+        ],
+        "type": "stack_panel",
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "orientation": "vertical",
+        "controls": [
+            {
+                "mui_version": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        10
+                    ],
+                    "controls": {
+                        "mui_version@mui_version": {}
+                    }
+                },
+                "mui_copyright": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        10
+                    ],
+                    "controls": {
+                        "mui_copyright@mui_copyright": {}
+                    }
+                },
+                "mui_description": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        10
+                    ],
+                    "controls": {
+                        "mui_description@mui_description": {}
+                    }
+                }
+            }
+        ]
+    },
+    "panorama_overlay_image": {
+        "type": "image",
+        "size": [
+            "default",
+            "100%c"
+        ],
+        "alpha": 1.0,
+        "texture": "textures/ui/panorama_overlay",
+        "layer": 0,
+        "fill": true
+    },
+    "start_screen_content": {
+        "type": "panel",
+        "$achievements_ignored|default": false,
+        "$feedback_ignored|default": false,
+        "$store_ignored|default": false,
+        "variables": [
+            {
+                "requires": "$education_edition",
+                "$achievements_ignored": true,
+                "$store_ignored|default": true
+            },
+            {
+                "requires": "$gear_vr",
+                "$feedback_ignored": true
+            },
+            {
+                "requires": "$fire_tv",
+                "$feedback_ignored": true
+            },
+            {
+                "requires": "$nx_os",
+                "$feedback_ignored": true
+            },
+            {
+                "$start_text_visible": true,
+                "$screen_content": "start.start_screen_content"
+            },
+            {
+                "appearacne_loading_panel@common_store.progress_loading": {
+                    "$hide_failure_text": true,
+                    "$hide_progress_loading_outline": true
+                },
+                "requires": "(not $supports_xbl_achievements)",
+                "$achievements_ignored": true,
+                "$feedback_ignored": true
+            }
+        ],
+        "controls": [
+            {
+                "skin_panel@start.skin_panel": {
+                    "layer": 114514
+                }
+            },
+            {
+                "main_buttons_and_title_panel@start.main_buttons_stack_panel": {}
+            },
+            {
+                "upper_online_buttons_panel@start.upper_online_buttons_panel": {}
+            },
+            {
+                "lower_online_buttons_panel@start.lower_online_buttons_panel": {}
+            },
+            {
+                "text_panel@start.text_panel": {}
+            },
+            {
+                "realms_pending_invite_panel@start.realms_pending_invite_panel": {
+                    "anchor_from": "top_left",
+                    "anchor_to": "top_right"
+                }
+            },
+            {
+                "panorama_overlay@start.panorama_overlay_image": {
+                    "layer": 0
+                }
+            }
+        ]
+    }
+}

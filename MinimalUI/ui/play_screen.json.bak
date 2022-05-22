@@ -1,0 +1,289 @@
+{
+  "namespace": "play",
+  
+  "world_list_text": {
+    "type": "label",
+    "color": "$dark_button_secondary_default_text_color",
+    "shadow": false,
+    "font_type": "smooth"
+  },
+    
+  "world_screenshot_base": {
+    "type": "image",
+    "size": [ "100%cm + 2px", "100%" ],
+    "texture": "extra_textures/ui/black_border",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "nineslice_size": 1,
+    "alpha": 0.5,
+    "layer": 1
+  },
+    
+  "local_worlds_content_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "local_world_screenshot@play.collection_world_screenshot": {
+          "$collection_binding_name": "local_worlds",
+          "$image_binding_name": "#local_world_image",
+          "$supports_realmsplus_overlay": true,
+          "$texture_source_binding_name": "#local_world_texture_source"
+        }
+      },
+      {
+        "local_world_text_panel@play.local_world_text_panel": {
+          "$text_color": "$world_text_color",
+          "$secondary_text_color": "$world_text_color",
+          "size": [ "fill", "100%" ]
+        }
+      }
+    ]
+  },
+  
+  "sections_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      { "local_world_section_panel@play_world_section.local_world_section_panel": {}},
+      { "friends_section_panel@play_world_section.friends_section_panel": {}},
+      { "serve_section_panel@play_world_section.serve_section_panel": {}}
+    ]
+  },
+  
+  "section_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "top_shadow@top_shadow": {
+          "size": [ "100%", 4 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 5
+        }
+      },
+      {
+        "section_panel": {
+          "type": "panel",
+          "layer": 3,
+          "size": [ "100%", "fill" ],
+          "controls": [
+            {
+              "section_bg@section_bg": {
+                "size": [ "100%", "100%" ],
+                "layer": 3
+              }
+            },
+            {
+              "sections_panel@sections_panel": {
+                "layer": 5
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "option_state@ui_mui_common.setting_toggle": {
+    "$ic_size": [ 11.5, 11.5 ],
+    "$ic_panel_size": [ 14, "100%" ],
+    "size": [ "100%",22 ],
+    "$button_text_color": "$option_text_color",
+    "$default": "extra_textures/ui/option_0",
+    "$pressed": "extra_textures/ui/background_b",
+    "$hover": "extra_textures/ui/option_2"
+  },
+    
+  "option_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "top_shadow@top_shadow": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 5
+        }
+      },
+      {
+        "button_panel": {
+          "type": "stack_panel",
+          "layer": 3,
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "orientation": "vertical",
+          "size": [ "100%", "fill" ],
+          "$default_selector_toggle_index": 0,
+          "controls": [
+            {
+              "world@option_state": {
+                "$toggle_view_binding_name": "local_world_section",
+                "$button_text": "世界",
+                "$shadow_t": false,
+                "$option_ic": "extra_textures/ui/settings_0"
+              }
+            },
+            {
+              "friends@option_state": {
+                "$toggle_view_binding_name": "friends_section",
+                "$toggle_group_forced_index": 1,
+                "$button_text": "好友",
+                "$option_ic": "extra_textures/ui/settings_0"
+              }
+            },
+            {
+              "services@option_state": {
+                "$toggle_view_binding_name": "serve_section",
+                "$toggle_group_forced_index": 2,
+                "$button_text": "服务器",
+                "$option_ic": "extra_textures/ui/settings_0"
+              }
+            },
+            {
+              "left_shadow@left_shadow": {
+                "size": [ "100%", "fill" ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "top_shadow": {
+    "type": "image",
+    "alpha": 0.7,
+    "texture": "extra_textures/ui/option_0",
+    "size": [ "100%", 4 ],
+    "nineslice_size": 1,
+    "controls": [
+      {
+        "shadow_top@ui_mui_common.shadow_top_T": {
+          "size": [ "100%", 4 ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "layer": 5,
+          "alpha": 0.45
+        }
+      }
+    ]
+  },
+  
+  "left_shadow": {
+    "type": "image",
+    "alpha": 0.7,
+    "texture": "extra_textures/ui/option_0",
+    "nineslice_size": 1,
+    "controls": [
+      {
+        "shadow_left@ui_mui_common.shadow_left_T": {
+          "size": [ 4, "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "layer": 5,
+          "alpha": 0.45
+        }
+      },
+      { "local_world_edit_button@play_world_section.local_world_edit_button": {}
+      }
+    ]
+  },
+  
+  "section_bg": {
+    "type": "image",
+    "nineslice_size": 1,
+    "texture": "extra_textures/ui/background_b",
+    "alpha": 0.7
+  },
+  
+  "title_label": {
+    "type": "label",
+    "text": "本地与云端",
+    "font_scale_factor": 1.2,
+    "color": "black"
+  },
+  
+  "play_screen_main_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%" ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "option": {
+          "type": "panel",
+          "size": [ 64, "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "controls": [
+            {
+              "option_panel@option_panel": {}
+            }
+          ]
+        }
+      },
+      { 
+        "section": {
+          "type": "panel",
+          "size": [ "fill", "100%" ],
+          "controls": [
+            {
+              "section_panel@section_panel": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "play_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_tab_left",
+        "to_button_id": "button.menu_tab_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_tab_right",
+        "to_button_id": "button.menu_tab_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "play.play_screen_mui_content",
+    "$world_picker_screen": false
+  },
+
+  "play_screen_mui_content": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "panel_box@ui_mui_common.panel_box": {
+          "$box_background_texture": "$play_bg",
+          "$bar_texture": "extra_textures/ui/option_0",
+          "$background_alpha": 0.7,
+          "$bar_alpha": 0.7,
+          "$bar_title_icon": "extra_textures/ui/play_screen_ic",
+          "size": [ 320, 210 ],
+          "$title_color": "black",
+          "$bar_title": "playscreen.worlds",
+          "$panel_content": "play.play_screen_main_panel",
+          "layer": 5
+        }
+      }
+    ]
+  }
+}

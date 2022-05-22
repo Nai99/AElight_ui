@@ -1,0 +1,539 @@
+/*
+  Copyright © 2020-2021 YC_Lemon_NinG
+  Date: 2021-2-6
+*/
+{
+  "namespace": "start",
+  
+  "new_button_image": {
+    "type": "image",
+    "layer": 3
+  },
+  
+  "t": {
+    "anim_type": "offset",
+    "duration": 1.0,
+    "from": [ 0, 0 ],
+    "to": [ 50, 0 ]
+  },
+  
+  "start_button_state": {
+    "type": "image",
+    "layer": 1,
+    "nineslice_size": 1,
+    "$text_offset": [ 2, -2 ],
+    //"animation_reset_name": "screen_animation_reset",
+    "controls": [
+      {
+        "button_label@common.new_button_label": {
+          "text": "$button_text",
+          "shadow": false,
+          "font_type": "smooth",
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "max_size": [ "100% - 4px", "100% - 4px" ],
+          "offset": "$text_offset",
+          "color": "$main_header_text_color"
+        }
+      },
+      {
+        "button_image@new_button_image": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "texture": "$icon_texture",
+          "size": [ "30%", "30%" ]
+        }
+      }
+    ]
+  },
+  
+  "start_play_button_state_default@start_button_state": {
+    "texture": "extra_textures/ui/start_play_button_0"
+  },
+
+  "start_play_button_state_hover@start_button_state": {
+    "texture": "extra_textures/ui/start_play_button_1"
+   // "offset": "@start.t"
+  },
+
+  "start_play_button_state_pressed@start_button_state": {
+    "texture": "extra_textures/ui/start_play_button_1"
+  },
+  
+  "start_profile_button_state_default@start_button_state": {
+    "texture": "extra_textures/ui/start_profile_button_0"
+  },
+
+  "start_profile_button_state_hover@start_button_state": {
+    "texture": "extra_textures/ui/start_profile_button_1"
+  },
+
+  "start_profile_button_state_pressed@start_button_state": {
+    "texture": "extra_textures/ui/start_profile_button_1"
+  },
+  
+  "start_achievements_button_state_default@start_button_state": {
+    "texture": "extra_textures/ui/start_achievements_button_0"
+  },
+
+  "start_achievements_button_state_hover@start_button_state": {
+    "texture": "extra_textures/ui/start_achievements_button_1"
+  },
+
+  "start_achievements_button_state_pressed@start_button_state": {
+    "texture": "extra_textures/ui/start_achievements_button_1"
+  },
+  
+  "start_play_button@common.button": {
+    "controls": [
+      { "default@start_play_button_state_default": { } },
+      { "hover@start_play_button_state_hover": { } },
+      { "pressed@start_play_button_state_pressed": { } }
+    ]
+  },
+  
+  "start_profile_button@common.button": {
+    "controls": [
+      { "default@start_profile_button_state_default": { } },
+      { "hover@start_profile_button_state_hover": { } },
+      { "pressed@start_profile_button_state_pressed": { } }
+    ]
+  },
+  
+  "start_achievements_button@common.button": {
+    "controls": [
+      { "default@start_achievements_button_state_default": { } },
+      { "hover@start_achievements_button_state_hover": { } },
+      { "pressed@start_achievements_button_state_pressed": { } }
+    ]
+  },
+  
+  ///////////////
+  //三个主要按钮//
+  /////////////
+  
+  "play_button@start_play_button": {
+    "$pressed_button_name": "button.menu_play",
+    "$button_text": "menu.play",
+    "$icon_texture": "extra_textures/ui/play_icon",
+    "size": [ 62, 128 ]
+  },
+    
+  "profile_button@start_profile_button": {
+    "$pressed_button_name": "button.to_profile_screen",
+    "$button_text": "profileScreen.header",
+    "$icon_texture": "extra_textures/ui/profile_icon",
+    "size": [ 62, 62 ]
+  },
+  
+  "achievements_button@start_achievements_button": {
+    "$pressed_button_name": "button.menu_achievements",
+    "$button_text": "menu.achievements",
+    "$icon_texture": "extra_textures/ui/achievement_icon",
+    "size": [ 62, 62 ]
+  },
+  
+  "right_buttons_panel": {
+    "size": [ 64, 128 ],
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "controls": [
+      {
+        "top": {
+          "size": [ "100%", 64 ],
+          "type": "panel",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "controls": [
+            {
+              "achievements_button@achievements_button": {
+                "anchor_from": "top_right",
+                "anchor_to": "top_right"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bottom": {
+          "size": [ "100%", "fill" ],
+          "type": "panel",
+          "controls": [
+            {
+              "profile_button@profile_button": {
+                "anchor_from": "bottom_right",
+                "anchor_to": "bottom_right"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "buttons_panel": {
+    "size": [ 128, 128 ],
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "animation_reset_name": "screen_animation_reset",
+    "anims": [
+	    "@animations_mui.buttons_exit_push",
+      "@animations_mui.buttons_exit_pop",
+      "@animations_mui.buttons_entrance_push",
+      "@animations_mui.buttons_entrance_pop"
+	  ],
+    "controls": [
+      {
+        "left": {
+          "size": [ 64, "100%" ],
+          "type": "panel",
+          "controls": [
+            {
+              "play_button@play_button": {
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "right": {
+          "size": [ "fill", "100%" ],
+          "type": "panel",
+          "controls": [
+            {
+              "right_buttons_panel@right_buttons_panel": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  ////////////
+  //底部信息//
+  //////////
+  
+  "start_bottom_label": {
+    "type": "label",
+    "font_type": "MinecraftTen",
+    "color": "$start_label",
+    "size": [ "default", 10 ]
+  },
+
+  "mui_version@start_bottom_label": {
+    "text": "MUI v0.02.01(bate)",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle"
+  },
+  
+  "mui_description@start_bottom_label": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "text": "Minimal UI For MCBE 1.16+"
+  },
+
+  "mui_copyright@start_bottom_label": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "text": "Copyright © 2020-2021 YC_Lemon_NinG"
+  },
+  
+  "copyright@start_bottom_label": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "text": "menu.copyright"
+  },
+
+  "version@start_bottom_label": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "text": "#version",
+    "bindings": [
+      {
+        "binding_name": "#version"
+      }
+    ]
+  },
+  
+  "mojang_text_panel": {
+    "size": [ "100%", 30 ],
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "controls": [
+      {
+        "square": {
+          "type": "panel",
+          "size": [ "100%", 10 ]
+        }
+      },
+      {
+        "version": {
+          "type": "panel",
+          "size": [ "100%", 10 ],
+          "controls": [
+            { "version@version": {}
+            }
+          ]
+        }
+      },
+      {
+        "copyright": {
+          "type": "panel",
+          "size": [ "100%", 10 ],
+          "controls": [
+            { "copyright@copyright": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "pack_text_panel": {
+    "size": [ "100%", 30 ],
+    "type": "stack_panel",
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "orientation": "vertical",
+    "controls": [
+      {
+        "mui_version": {
+          "type": "panel",
+          "size": [ "100%", 10 ],
+          "controls": [
+            { "mui_version@mui_version": {}
+            }
+          ]
+        }
+      },
+      {
+        "mui_description": {
+          "type": "panel",
+          "size": [ "100%", 10 ],
+          "controls": [
+            { "mui_description@mui_description": {}
+            }
+          ]
+        }
+      },
+      {
+        "mui_copyright": {
+          "type": "panel",
+          "size": [ "100%", 10 ],
+          "controls": [
+            { "mui_copyright@mui_copyright": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "mui_text_panel": {
+    "type": "stack_panel",
+    "size": [ "100%-2px", 34 ],
+    "orientation": "horizontal",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    
+    "animation_reset_name": "screen_animation_reset",
+    "anims": [
+	  "@animations_mui.bottom_exit_animation_push",
+      "@animations_mui.bottom_exit_animation_pop",
+      "@animations_mui.bottom_entrance_animation_push",
+      "@animations_mui.bottom_entrance_animation_pop"
+	],
+	
+    "controls": [
+      {
+        "pack_text_panel": {
+          "size": [ "50%", "100%" ],
+          "type": "panel",
+          "controls": [
+            { "pack_text_panel@pack_text_panel": {}
+            }
+          ]
+        }
+      },
+      {
+        "mojang_text_panel": {
+          "size": [ "fill", "100%" ],
+          "type": "panel",
+          "controls": [
+            { "mojang_text_panel@mojang_text_panel": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  //////////////////
+  //滚动图片与按钮组//
+  ////////////////
+  
+  "center_panel": {
+    "type": "stack_panel",
+    "size": [ 370,"100%" ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "images_scroll_panel": {
+          "type": "panel",
+          "size": [ "fill", "100%" ],
+          "controls": [
+            {
+              "images_scroll_panel@images_scroll.images_scroll_panel": {}
+            }
+          ]
+        }
+      },
+      {
+        "side_block": {
+          "type": "panel",
+          "size": [ 128, "100%" ],
+          "controls": [
+            { 
+              "buttons_panel@buttons_panel": {
+                "layer": 1,
+                "size": [ "100%", 128 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  //////////
+  //主面板//
+  ////////
+
+  "start_main_panel": {
+    "type": "panel",
+    "size": [ "100%","100%" ],
+    "controls": [
+      {
+        "center_panel@center_panel": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "offset": [ -4, 0 ]
+        }
+      }
+    ]
+  },
+  
+  //////////
+  //TITLE//
+  ////////
+  
+  "title": {
+    "type": "image",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ "default", 14 ],
+    "texture": "extra_textures/ui/title",
+    "animation_reset_name": "screen_animation_reset",
+    "anims": [
+	    "@animations_mui.title_exit_animation_push",
+      "@animations_mui.title_exit_animation_pop",
+      "@animations_mui.title_entrance_animation_push",
+      "@animations_mui.title_entrance_animation_pop",
+      "@animations_mui.title_wait"
+	  ]
+  },
+  
+  "start_screen@common.base_screen": {
+    "type": "screen",
+    "cache_screen": true,
+    "$screen_animations": [
+      "@common.screen_exit_animation_push_fade",
+      "@common.screen_exit_animation_pop_fade",
+      "@common.screen_entrance_animation_push_fade",
+      "@common.screen_entrance_animation_pop_fade"
+    ],
+    "button_mappings": [
+      {
+        "ignored": "(not $can_quit)",
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "ignored": "(not $nx_os)",
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.menu_offline",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "start.start_screen_content"
+  },
+
+  "start_screen_content": {
+    "type": "panel",
+    "$achievements_ignored|default": false,
+    "$feedback_ignored|default": false,
+    "$store_ignored|default": false,
+    "variables": [
+      {
+        "requires": "$education_edition",
+        "$achievements_ignored": true,
+        "$store_ignored|default": true
+      },
+      {
+        "requires": "$gear_vr",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$fire_tv",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$nx_os",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "(not $supports_xbl_achievements)",
+        "$achievements_ignored": true,
+        "$feedback_ignored": true
+      }
+    ],
+    "controls": [
+      {
+        "start_top_bar@start_bar.start_head_bar": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 1
+        }
+      },
+      {
+        "title@title": {
+          "layer": 40
+        }
+      },
+      {
+        "start_main_panel@start_main_panel": {
+         // "size": [ 256, 128 ]
+        }
+      },
+      {
+        "side_bar@start_bar.side_bar": {//侧边栏(toggle)
+          "offset": [ 0, 10 ],
+          "layer": 10
+        }
+      },
+      {
+        "mui_text_panel@mui_text_panel": {
+          "layer": 2
+        }
+      },
+      {
+        "about_section_panel@mui_about_section.about_section_panel": {
+          "layer": 30
+        }
+      }
+    ]
+  }
+}

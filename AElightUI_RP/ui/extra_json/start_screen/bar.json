@@ -1,0 +1,595 @@
+/*
+  Copyright © 2020-2020 YC_Lemon_NinG
+  Date: 2020-11-25
+*/
+{
+  "namespace": "start_bar",
+
+  /////////////////
+  //登录和账户设置//
+  ///////////////
+
+  "start_bar_sign_button@ui_mui_common.new_button_0_state": {
+    "$button_text_color": "$option_text_color"
+  },
+  
+  "sign_button@start_bar_sign_button": {
+    "$pressed_button_name": "button.signin",
+    "$button_text": "xbox.signin"
+  },
+
+  "account_setting_button@start_bar_sign_button": {
+    "$pressed_button_name": "button.menu_open_uri",
+    "property_bag": {
+      "#hyperlink": "https://account.xbox.com/Settings"
+    },
+    "$button_text": "options.xboxliveBroadcastSettings"
+  },
+  
+  "sign_and_sign_out": {//登录与设置按钮组
+    "type": "panel",
+    "size": [ "100%", 25 ],
+    "controls": [
+      {
+        "sign_button@sign_button": {
+          "size": [ "100%", 25 ],
+          "bindings": [
+            {
+              "binding_name": "#sign_in_visible",
+              "binding_name_override": "#visible"//玩家登录后隐藏
+            }
+          ]
+        }
+      },
+      {
+        "account_setting_button@account_setting_button": {
+          "size": [ "100%", 25 ],
+          "bindings": [
+            {
+              "binding_name": "(not #sign_in_visible)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  ////////////
+  //玩家头像//
+  //////////
+  
+  "gamerpic": {
+    "type": "image",
+    "layer": 10,
+    "texture": "textures/ui/profile_glyph_color",
+    "bindings": [
+      {
+        "binding_name": "#gamerpic_texture_path",
+        "binding_name_override": "#texture"
+      },
+      {
+        "binding_name": "#gamerpic_texture_location_type",
+        "binding_name_override": "#texture_file_system"
+      }
+    ]
+  },
+  
+  "profile_block": {
+    "type": "panel",
+    "size": [ "100%","100%" ],
+    "controls": [
+      {
+        "border": {
+          "type": "image",
+          "texture": "extra_textures/ui/border_default",
+          "nineslice_size": 1,
+          "size": [ "100%","100%" ]
+        }
+      },
+      {
+        "gamerpic@gamerpic": {
+          "size": [ "100% - 2px","100% - 2px" ]
+        }
+      }
+    ]
+  },
+    
+  "profile_and_signin": {
+    "type": "stack_panel",
+    "size": [ "100%", 25 ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "profile_block@profile_block": {
+          "size": [ 25, 25 ]
+        }
+      },
+      {
+        "sign_and_sign_out@sign_and_sign_out": {
+          "size": [ "fill", 25 ]
+        }
+      }
+    ]
+  },
+
+  //////////////////
+  //侧边栏(toggle)//
+  ////////////////
+  
+  "side_bar": {
+    "type": "panel",
+    "size": [ 100, 162 ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "start_bar.side_bar_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "side_block@ui_mui_common.panel_box": {
+          "$box_background_texture": "",
+          "$bar_visible": false,
+          "$bar_title_icon": "",
+          "$title_color": "",
+          "$bar_title": "",
+          "$panel_content": "start_bar.side_panel"
+        }
+      }
+    ]
+  },
+  
+  "bg": {
+    "type": "image",
+    "alpha": 0.75,
+    "texture": "$side_bg",
+    "size": [ "100%", "100%" ],
+    "nineslice_size": 1,
+    "layer": 1
+  },
+    
+  "side_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "layer": 15,
+    "controls": [
+      {
+        "personality_panel": {
+          "type": "panel",
+          "size": [ "100%", 35 ],
+          "controls": [
+            {
+              "profile_and_signin@profile_and_signin": {
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "size": [ "100%", 25 ]
+              }
+            },
+            {
+              "gamertag_label": {
+                "layer": 5,
+                "locked_alpha": 1,
+                "text": "#text",
+                "type": "label",
+                "font_type": "smooth",
+                "color": "$option_text_color",
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "max_size": [ "100% - 1px", 10 ],
+                "bindings": [
+                  {
+                    "binding_name": "#gamertag_label",
+                    "binding_name_override": "#text"
+                  }
+                ]
+              }
+            },
+            {
+              "login_label": {
+                "layer": 5,
+                "text": "你还没有登录哦",
+                "type": "label",
+                "font_type": "smooth",
+                "color": "$option_text_color",
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "size": [ "default", 10 ],
+                "bindings": [
+                  {
+                    "binding_name": "#sign_in_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "text_bg": {
+                "type": "image",
+                "texture": "extra_textures/ui/option_0",
+                "layer": 2,
+                "nineslice_size": 1,
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "size": [ "100%", 10 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "side_button_panel": {
+          "type": "panel",
+          "layer": 5,
+          "size": [ "100%", "fill" ],
+          "controls": [
+            {
+              "shadow_top@ui_mui_common.shadow_bottom_T": {
+                "size": [ "100%", 4 ],
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "alpha": 0.85,
+                "layer": 10
+              }
+            },
+            { "bg@bg": {}
+            },
+            {
+              "button_scroll_panel@button_scroll_panel": {
+                "layer": 7
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  /////////////
+  //按钮滚动组//
+  ///////////
+  
+  "button_scroll_panel@ui_mui_common.scrolling_panel": {
+    "size": [ "100%", "100%" ],
+    "$show_background": false,
+    "$scroll_track_size": [ 5, "100% - 4px" ],
+    "$scroll_track_offset|default": [ -4, 2 ],
+    "$scrolling_content": "start_bar.button_panel"
+  },
+  
+  "button_panel": {
+    "size": [ "100%", "100%c" ],
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "controls": [
+      {
+        "side_store_button": {
+          "type": "panel",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [ "100%", 30 ],
+          "controls": [
+            {
+              "store_button@start_bar.store_button": {}
+            }
+          ]
+        }
+      },
+      {
+        "square0@horizontal_line": {
+          "size": [ "100%",1 ]
+        }
+      },
+      {
+        "achievements_button@achievements_button": {
+          "size": [ "100%", 30 ]
+        }
+      },
+      {
+        "square1@horizontal_line": {
+          "size": [ "100%",1 ]
+        }
+      },
+      {
+        "invite_button@invite_button": {
+          "size": [ "100%", 30 ]
+        }
+      },
+      {
+        "square2@horizontal_line": {
+          "size": [ "100%",1 ]
+        }
+      },
+      {
+        "feedback_button@feedback_button": {
+          "size": [ "100%", 30 ]
+        }
+      }
+    ]
+  },
+  
+  "horizontal_line": {
+    "type": "image",
+    "alpha": 0.6,
+    "texture": "extra_textures/ui/B_D_line",
+    "nineslice_size": 1
+  },
+    
+  "scroll_button_state": {
+    "type": "image",
+    "layer": 2,
+    "$text_offset": [ 6, 0 ],
+    "nineslice_size": 1,
+    "alpha": 0.7,
+    "controls": [
+      {
+        "button_label": {
+          "type": "label",
+          "layer": 5,
+          "text": "$button_text",
+          "shadow": false,
+          "font_type": "smooth",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "max_size": [ "100% - 4px", "100% - 4px" ],
+          "offset": "$text_offset",
+          "color": "$side_bar_text_color"
+        }
+      },
+      {
+        "button_image": {
+          "type": "image",
+          "layer": 2,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "texture": "$icon_texture",
+          "size": [ "40%", "40%" ],
+          "alpha": 0.7,
+          "color": "black"
+        }
+      }
+    ]
+  },
+
+  "scroll_button_state_default@scroll_button_state": {
+    "texture": "extra_textures/ui/option_0"
+  },
+
+  "scroll_button_state_hover@scroll_button_state": {
+    "texture": "extra_textures/ui/option_2"
+  },
+
+  "scroll_button_state_pressed@scroll_button_state": {
+    "texture": "extra_textures/ui/option_2"
+  },
+  
+  "scroll_button@common.button": {
+    "controls": [
+      { "default@scroll_button_state_default": { } },
+      { "hover@scroll_button_state_hover": { } },
+      { "pressed@scroll_button_state_pressed": { } }
+    ]
+  },
+  
+  "store_button@scroll_button": {
+    "$pressed_button_name": "button.menu_store",
+    "$button_text": "menu.store",
+    "$icon_texture": "extra_textures/ui/store_icon"
+  },
+  
+  "achievements_button@scroll_button": {
+    "$pressed_button_name": "button.menu_achievements",
+    "$button_text": "menu.achievements",
+    "$icon_texture": "extra_textures/ui/achievement_icon"
+  },
+  
+  "invite_button@scroll_button": {
+    "$pressed_button_name": "button.menu_invite_notification",
+    "$button_text": "realmsSettingsScreen.whitelist_invite",
+    "$icon_texture": "extra_textures/ui/invite_icon"
+  },
+  
+  "feedback_button@scroll_button": {
+    "$pressed_button_name": "button.menu_open_uri",
+    "property_bag": {
+      "#hyperlink": "https://aka.ms/minecraftfb"
+    },
+    "$button_text": "feedbackScreen.button",
+    "$icon_texture": "extra_textures/ui/feedback_icon"
+  },
+
+  "side_bar_toggle@ui_mui_common.mui_toggle_button_control": {
+    "$toggle_name": "side_bar_toggle",
+    "$toggle_state_binding_name": "#side_bar_toggle"
+  },
+  
+  "side_bar_button@ui_mui_common.mui_toggle_button": {
+    "$option_binding_name": "start_bar.side_bar_toggle",
+    "$toggle_default": "extra_textures/ui/profile_button_0",
+    "$toggle_pressed": "extra_textures/ui/profile_button_1",
+    "$layout_size": [ "100% - 0.5px", "100% - 0.5px" ],
+    "$control_name": "start_bar.side_bar_toggle"
+  },
+
+  "bar_block": {
+    "type": "image",
+    "alpha": 0.8,
+    "layer": 5,
+    "anchor_from": "top",
+    "anchor_to": "top",
+    "nineslice_size": 1,
+    "texture": "extra_textures/ui/background_0"
+  },
+  
+  "shadow_bottom": {
+    "type": "image",
+    "alpha": 0.5,
+    "anchor_from": "top",
+    "anchor_to": "top",
+    "nineslice_size": 1,
+    "color": "white",
+    "texture": "extra_textures/ui/shadow_bottom"
+  },
+  
+  "buttons_square": {
+    "type": "image",
+    "alpha": 0.3,
+    "texture": "extra_textures/ui/buttons_square",
+    "nineslice_size": 1
+  },
+  
+  //////////
+  //导航栏//
+  ////////
+  
+
+  
+  "start_head_bar": {
+    "type": "panel",
+    "size": [ "100%",24 ],
+    "animation_reset_name": "screen_animation_reset",
+    "anims": [
+	    "@animations_mui.bar_exit_animation_push",
+      "@animations_mui.bar_exit_animation_pop",
+      "@animations_mui.bar_entrance_animation_push",
+      "@animations_mui.bar_entrance_animation_pop"
+	  ],
+    "controls": [
+      {
+        "start_top_bar@start_top_bar": {}
+      }
+    ]
+  },
+  
+  "top_bar_tools": {
+    "type": "stack_panel",
+    "size": [ "100%","100%" ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "logo_button@mui_about_section.logo_button": {
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 24, "100%" ]
+        }
+      },
+      {
+        "square": {
+          "type": "panel",
+          "size": [ 1, "100%" ],
+          "layer": 10,
+          "controls": [
+            {
+              "buttons_square@buttons_square": {
+                "size": [ 1, "100% - 2px" ],
+                "anchor_from": "center",
+                "anchor_to": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "exit_button_panel": {
+          "type": "panel",
+          "size": [ 24, "100%" ],
+          "controls": [
+            { 
+              "exit_button@exit_button": {
+                "size": [ 24, "100% - 1px" ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "settings_button@settings_button": {
+          "size": [ 24, "100%" ]
+        }
+      },
+      {
+        "bar_information": {
+          "type": "panel",
+          "size": [ "fill", "100%" ]
+        }
+      },
+      {
+        "side_bar_button_panel": {
+          "size": [ 24, "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "type": "panel",
+          "layer": 10,
+          "controls": [
+            { 
+              "side_bar_button@side_bar_button": {
+                "size": [ 24, "100% - 2px" ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "button_state": {
+    "type": "image"
+  },
+  
+  "bar_settings_button_statues@common.button": {
+    "sound_volume": 0.0,
+    "controls": [
+      {
+        "default@button_state": {
+          "texture": "extra_textures/ui/settings_0"
+        }
+      },
+      {
+        "hover@button_state": {
+          "texture": "extra_textures/ui/settings_1"
+        }
+      },
+      {
+        "pressed@button_state": {
+          "texture": "extra_textures/ui/settings_1"
+        }
+      }
+    ]
+  },
+  
+  "bar_exit_button_statues@common.button": {
+    "sound_volume": 0.0,
+    "controls": [
+      {
+        "default@button_state": {
+          "texture": "extra_textures/ui/exit_0"
+        }
+      },
+      {
+        "hover@button_state": {
+          "texture": "extra_textures/ui/exit_1"
+        }
+      },
+      {
+        "pressed@button_state": {
+          "texture": "extra_textures/ui/exit_1"
+        }
+      }
+    ]
+  },
+  
+  "settings_button@bar_settings_button_statues": {
+    "$pressed_button_name": "button.menu_settings",
+    "layer": 10
+  },
+
+  "exit_button@bar_exit_button_statues": {
+    "$pressed_button_name": "button.menu_exit",
+    "layer": 10
+  }
+  
+}

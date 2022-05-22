@@ -1,0 +1,14 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "how_to_play",
+
+  "how_to_play_screen@how_to_play_common.screen_base": {
+    "$header_safezone_control": "",
+    "$header_bar_control": "",
+    "$is_full_screen_layout": false
+  }
+}

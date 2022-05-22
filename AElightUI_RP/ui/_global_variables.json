@@ -1,0 +1,19 @@
+{
+  //////// Text colors ////////
+  "$box_text_color": [ 0.19607, 0.18039,0.18039 ],
+  "$option_text_color": [ 0.19607, 0.18039,0.18039 ],
+  "$about_title_color": [ 0.2863, 0.4353 , 0.5529 ],
+  "$world_text_color": [ 0.4117, 0.3765 , 0.3765 ],
+  "$side_bar_text_color": [ 0.4117, 0.3765 , 0.3765 , 0.7 ],
+  "$start_label": [ 0.7647,0.8509,0.4156 ],
+  
+  ///////////////////修改背景说明：
+  //box_background// 下边是每个界面含有的框框面板的背景链接，后边是对应的面板和面板大小
+  /////////////////  修改的时候可以链接大图(图片比例要与面板比例一致)，也可以链接几像素的贴图
+  
+  "$about_bg": "extra_textures/ui/option_bg",//关于面板，256*168
+  "$side_bg": "extra_textures/ui/option_bg",//侧边栏面板，100*162
+  "$setting_bg": "extra_textures/ui/option_bg",//设置面板，320*210
+  "$play_bg": "extra_textures/ui/option_bg",//存档面板，320*210
+  "$how_to_play_bg": "extra_textures/ui/option_bg"
+}

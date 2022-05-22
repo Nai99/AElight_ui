@@ -3,7 +3,7 @@ accessibility.chat.tts.gamepad.back=点击 %s 返回
 accessibility.chat.tts.gamepad.exitChat=点击 %s 退出聊天	
 accessibility.chat.tts.gamepad.sendMessage=点击 %s 发送消息	
 accessibility.chat.tts.says=%s 说 %s	
-
+xbl.marketplace.account.error.body.nobutton=正在尝试连接上网络
 action.hint.exit.boat=点击“跳跃”离开船	
 action.hint.exit.minecart=点击“跳跃”离开矿车	
 action.hint.exit.pig=点击潜行下马	
@@ -63,8 +63,8 @@ chestScreen.header.small=宝箱
 commands.save.failed=保存失败：%1$s	
 commands.save.start=保存中……	
 commands.save.success=已保存梦境	
-playscreen.beta_worlds=梦境	#
-playscreen.beta_legacy_worlds=旧梦境	#
+playscreen.beta_worlds=梦境	
+playscreen.beta_legacy_worlds=旧梦境	
 
 
 
@@ -215,22 +215,22 @@ deathScreen.title=你已迷失在梦境
 deathScreen.title.hardcore=游戏结束！	
 deathScreen.titleScreen=标题画面
 	
-commandBlockScreen.blockType=方块类型：	#
-commandBlockScreen.blockType.impulse=脉冲	#
-commandBlockScreen.blockType.chain=连锁	#
-commandBlockScreen.blockType.repeat=循环	#
-commandBlockScreen.condition=发生错误时：	#
-commandBlockScreen.condition.conditional=不执行下个命令方块	#
-commandBlockScreen.condition.unconditional=仍执行下个命令方块	#
-commandBlockScreen.redstone=控制：	#
-commandBlockScreen.redstone.needs_redstone=需要红石	#
-commandBlockScreen.redstone.always_on=始终活动	#
-commandBlockScreen.tickDelay=延迟执行:	#
-commandBlockScreen.executeFirstTick=执行第一个已选项	#
-commandBlockScreen.displayOutputMode=O	#
-commandBlockScreen.hideOutputMode=X	#
-commandBlockScreen.hoverNote=悬停说明	#
-commandBlockScreen.title=命令方块	#
+commandBlockScreen.blockType=方块类型：	
+commandBlockScreen.blockType.impulse=脉冲	
+commandBlockScreen.blockType.chain=连锁	
+commandBlockScreen.blockType.repeat=循环	
+commandBlockScreen.condition=发生错误时：	
+commandBlockScreen.condition.conditional=不执行下个命令方块	
+commandBlockScreen.condition.unconditional=仍执行下个命令方块	
+commandBlockScreen.redstone=控制：	
+commandBlockScreen.redstone.needs_redstone=需要红石	
+commandBlockScreen.redstone.always_on=始终活动	
+commandBlockScreen.tickDelay=延迟执行:	
+commandBlockScreen.executeFirstTick=执行第一个已选项	
+commandBlockScreen.displayOutputMode=O	
+commandBlockScreen.hideOutputMode=X	
+commandBlockScreen.hoverNote=悬停说明	
+commandBlockScreen.title=命令方块	
 
 disconnectionScreen.editionVersionMismatch.title=无法加载梦境。	
 disconnectionScreen.futureVersion=无法加载高版本梦境。	
@@ -1848,7 +1848,7 @@ pauseScreen.error.noIpAddress=没有找到IP
 pauseScreen.error.noPort=未发现端口	
 pauseScreen.title=游戏暂停	
 pauseScreen.betaFeedback=测试版反馈	
-pauseScreen.xboxLiveDisconnect=您的意识被干扰了。您需要在主菜单中登录，重新进入梦境，才能邀请更多的玩家。	
+pauseScreen.xboxLiveDisconnect=您的意识受到未知干扰，请重新连接梦境。	
 pauseScreen.joinCode.Label=加入代码	
 pauseScreen.joinCode.Icon=%3 加入代码图标，第 %1 个，共 %2 个	 Example: Apple join code icon, 2 of 5	
 
@@ -3605,6 +3605,9 @@ item.minecraft.copper_horn.bass.7=泪水
 item.minecraft.copper_horn.bass.8=礼物	
 item.minecraft.copper_horn.bass.9=爱	
 
+
+sidebar.characterCreator=新建角色	
+sidebar.classicSkins=自定义皮肤	
 item.minecraft.goat_horn.sound.0=思考	
 item.minecraft.goat_horn.sound.1=唱	
 item.minecraft.goat_horn.sound.2=寻找	

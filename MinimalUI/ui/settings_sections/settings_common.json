@@ -1,0 +1,197 @@
+/*
+  Copyright © 2020-2021 YC_Lemon_NinG
+  Date: 2021-2-6
+*/
+{
+  "namespace": "settings_common",
+  
+  "main_box_panel": {
+    "type": "panel",
+    "size": [ 320, 210 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 5,
+    "controls": [
+      {
+        "panel_box@ui_mui_common.panel_box": {
+          "$box_background_texture": "$setting_bg",
+          "$bar_title_icon": "extra_textures/ui/settings_0",
+          "$bar_texture": "extra_textures/ui/option_0",
+          "$background_alpha": 0.7,
+          "$bar_alpha": 0.7,
+          "$title_color": "black",
+          "$bar_title": "menu.settings",
+          "$panel_content": "settings_common.setting_main_panel"
+        }
+      }
+    ]
+  },
+  
+  "settings_screen_content": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      { "main_box_panel@settings_common.main_box_panel": {}},
+      { "back_panel@ui_mui_common.back_panel": {
+          "ignored": "($is_pregame)",
+          "layer": 1
+        }
+      }
+    ]
+  },
+  
+  "top_shadow": {
+    "type": "image",
+    "alpha": 0.7,
+    "texture": "extra_textures/ui/option_0",
+    "size": [ "100%", 4 ],
+    "nineslice_size": 1,
+    "controls": [
+      {
+        "shadow_top@ui_mui_common.shadow_top_T": {
+          "size": [ "100%", 4 ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "layer": 5,
+          "alpha": 0.45
+        }
+      }
+    ]
+  },
+
+  "section_bg": {
+    "type": "image",
+    "nineslice_size": 1,
+    "texture": "extra_textures/ui/background_b",
+    "alpha": 0.7
+  },
+    
+  "section_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "top_shadow@top_shadow": {
+          "size": [ "100%", 4 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 5
+        }
+      },
+      {
+        "section_panel": {
+          "type": "panel",
+          "layer": 3,
+          "size": [ "100%", "fill" ],
+          "controls": [
+            {
+              "section_bg@section_bg": {
+                "size": [ "100%", "100%" ],
+                "layer": 3
+              }
+            },
+            {
+              "scroll_sections_panel@ui_mui_common.scrolling_panel": {
+                "size": [ "100% - 2px", "100%" ],
+                "$show_background": false,
+                "layer": 5,
+                "$scroll_track_size": [ 5, "100% - 4px" ],
+                "$scroll_track_offset|default": [ -4, 2 ],
+                "$scrolling_content": "settings.section_content_panels"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+    
+  "option_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "options_panel": {
+          "layer": 3,
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "top_shadow@top_shadow": {
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "layer": 5
+              }
+            },
+            {
+              "scroll_options_panel@ui_mui_common.scrolling_panel": {
+                "size": [ "100%", "fill" ],
+                "$show_background": false,
+                "$scroll_track_size": [ 5, "100% - 4px" ],
+                "$scroll_track_offset|default": [ -4, 2 ],
+                "$scroll_size_touch": [ 0, 0 ],
+                "$scrolling_content": "setting_options.selector_stack_panel"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "setting_main_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%" ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "option": {
+          "type": "panel",
+          "size": [ 64, "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "controls": [
+            { "option_panel@option_panel": {} }
+          ]
+        }
+      },
+      { 
+        "section": {
+          "type": "panel",
+          "size": [ "fill", "100%" ],
+          "controls": [
+            { "section_panel@section_panel": {} }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "dynamic_dialog_screen@common.base_screen": {
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_tab_left",
+        "to_button_id": "button.menu_tab_left",
+        "mapping_type": "global",
+        "scope": "view"
+      },
+      {
+        "from_button_id": "button.menu_tab_right",
+        "to_button_id": "button.menu_tab_right",
+        "mapping_type": "global",
+        "scope": "view"
+      }
+    ],
+    "$screen_content": "settings_common.settings_screen_content",
+    "$header_bar_control": "",
+    "$header_safezone_control": "common.empty_panel",
+	  "$is_full_screen_layout": false
+  }
+}

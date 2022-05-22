@@ -1,0 +1,431 @@
+/*
+  Copyright © 2020-2020 YC_Lemon_NinG
+  Date: 2020-11-6
+*/
+{
+  "namespace": "animations_mui",
+  
+  /////////////////////
+  //TITLE_ANIMATIONS//
+  ///////////////////
+  
+  "title_wait": {
+    "anim_type": "alpha",
+    "duration": 0.75,
+    "from": 1,
+    "to": 0
+  },
+  
+  "title_exit_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 2 ],
+    "to": [ 0, "-100%" ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "title_exit_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 2 ],
+    "to": [ 0, "-100%" ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "title_entrance_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, "-100%" ],
+    "to": [ 0, 2 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "title_entrance_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, "-100%" ],
+    "to": [ 0, 2 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+  
+  ////////////////////////////
+  //IMAGE_PLAYER_ANIMATIONS//
+  //////////////////////////
+  
+  //anim_0
+  
+  "img_0_anim_0": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 0.8,
+    "to": 1,
+    "next": "@animations_mui.img_0_anim_1"
+  },
+  
+  "img_0_anim_1": {
+    "anim_type": "alpha",
+    "duration": 4,
+    "from": 1,
+    "to": 1,
+    "next": "@animations_mui.img_0_anim_2"
+  },
+  
+  "img_0_anim_2": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 1,
+    "to": 0.8,
+    "next": "@animations_mui.img_0_anim_3"
+  },
+  
+  "img_0_anim_3": {
+    "anim_type": "alpha",
+    "duration": 13.2,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_0_anim_0"
+  },
+  
+  //anim_1
+  
+  "img_1_anim_0": {
+    "anim_type": "alpha",
+    "duration": 4.4,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_1_anim_1"
+  },
+  
+  "img_1_anim_1": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 0.8,
+    "to": 1,
+    "next": "@animations_mui.img_1_anim_2"
+  },
+  
+  "img_1_anim_2": {
+    "anim_type": "alpha",
+    "duration": 4,
+    "from": 1,
+    "to": 1,
+    "next": "@animations_mui.img_1_anim_3"
+  },
+  
+  "img_1_anim_3": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 1,
+    "to": 0.8,
+    "next": "@animations_mui.img_1_anim_4"
+  },
+  
+  "img_1_anim_4": {
+    "anim_type": "alpha",
+    "duration": 8.8,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_1_anim_0"
+  },
+  
+  //anim_2
+  
+  "img_2_anim_0": {
+    "anim_type": "alpha",
+    "duration": 8.8,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_2_anim_1"
+  },
+  
+  "img_2_anim_1": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 0.8,
+    "to": 1,
+    "next": "@animations_mui.img_2_anim_2"
+  },
+  
+  "img_2_anim_2": {
+    "anim_type": "alpha",
+    "duration": 4,
+    "from": 1,
+    "to": 1,
+    "next": "@animations_mui.img_2_anim_3"
+  },
+  
+  "img_2_anim_3": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 1,
+    "to": 0.8,
+    "next": "@animations_mui.img_2_anim_4"
+  },
+  
+  "img_2_anim_4": {
+    "anim_type": "alpha",
+    "duration": 4.4,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_2_anim_0"
+  },
+  
+  //anim_3
+  
+  "img_3_anim_0": {
+    "anim_type": "alpha",
+    "duration": 13.2,
+    "from": 0,
+    "to": 0,
+    "next": "@animations_mui.img_3_anim_1"
+  },
+  
+  "img_3_anim_1": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 0.8,
+    "to": 1,
+    "next": "@animations_mui.img_3_anim_2"
+  },
+  
+  "img_3_anim_2": {
+    "anim_type": "alpha",
+    "duration": 4,
+    "from": 1,
+    "to": 1,
+    "next": "@animations_mui.img_3_anim_3"
+  },
+  
+  "img_3_anim_3": {
+    "anim_type": "alpha",
+    "duration": 0.2,
+    "from": 1,
+    "to": 0.8,
+    "next": "@animations_mui.img_3_anim_0"
+  },
+  
+  "img_exit_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 0 ],
+    "to": [ "-100%", 0 ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "img_exit_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 0 ],
+    "to": [ "-100%", 0 ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "img_entrance_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "-100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "img_entrance_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "-100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+  
+  //////////////////////
+  //SCREEN_ANIMATIONS//
+  ////////////////////
+  
+  "screens_exit_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 0 ],
+    "to": [ "-100%", 0 ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "screens_exit_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 0 ],
+    "to": [ "-100%", 0 ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "screens_entrance_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "-100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "screens_entrance_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "-100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+  
+  /////////////////////////////
+  //START_BUTTONS_ANIMATIONS//
+  ///////////////////////////
+  
+  "buttons_exit_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 0 ],
+    "to": [ "100%", 0 ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "buttons_exit_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 0 ],
+    "to": [ "100%", 0 ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "buttons_entrance_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "buttons_entrance_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "100%", 0 ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+  
+  ///////////////////////
+  //TOP_BAR_ANIMATIONS//
+  /////////////////////
+  
+  "bar_exit_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 0 ],
+    "to": [ 0, "-100%" ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "bar_exit_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 0 ],
+    "to": [ 0, "-100%" ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "bar_entrance_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, "-100%" ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "bar_entrance_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, "-100%" ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+  
+  //////////////////////////////////
+  //START_BOTTOM_LABEL_ANIMATIONS//
+  ////////////////////////////////
+  
+  "bottom_exit_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, 0 ],
+    "to": [ 0, "100%" ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+
+  "bottom_exit_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, 0 ],
+    "to": [ 0, "100%" ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+
+  "bottom_entrance_animation_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 0, "100%" ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+
+  "bottom_entrance_animation_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 0, "100%" ],
+    "to": [ 0, 0 ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  }
+  
+}
