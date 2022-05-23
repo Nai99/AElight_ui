@@ -1,0 +1,73 @@
+{
+  "namespace": "information_section",  
+  "info_button@settings_common.section_toggle_base": {
+"$toggle_view_binding_name": "info_button_toggle",
+"$glyph_texture": "AElight/about",
+"$glyph_color_texture": "AElight/about",
+"$glyph_size": [ 17, 17 ],
+"$button_text": "关于",
+"$toggle_property_bag": {
+  "#panel_title": "材质包信息"
+}
+  },
+  "advanced_video_options_toggle@settings_common.option_toggle_control": {
+"$toggle_name": "Show Feature Info",
+"$toggle_state_binding_name": "#advanced_video_options"
+  },
+
+  "info_section": {
+"type": "stack_panel",
+"size": [ "100%", "100%c" ],
+"anchor_from": "top_left",
+"anchor_to": "top_left",
+"bindings": [
+  {
+"binding_type": "view",
+"source_control_name": "info_button_toggle",
+"source_property_name": "#toggle_state",
+"target_property_name": "#visible"
+  }
+],
+//下面是内容
+"controls": [
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 3.114514,"text": "§bAElightUI"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.2,"text": "Made by loading"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 2,"text": "§l§b更新内容"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},   
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "§7UI部分"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "1.UI部分细节优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "2.全新聊天栏动画。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "3.新增游戏内的UI教程。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "4.全新的UI首页。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "5.调整了部分选择栏亮度。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "6.部分图标更改。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "7.经验条对齐物品栏（强迫症福音）！"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "8.切换子包界面优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "9.快速选择上下句控件优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "10.结构方块加载和保存控件已分离。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "11.暗色模式改为暗色模式beta（动态云雾效果）。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": ""}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "§7材质方面"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "1.草地优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "2.铁矿石贴图优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "3.黑暗状态图标优化。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "4.新增1.19部分译名。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "5.Minecraft1.19版本的图形优化（天空方面）。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "6.细雪纹理优化，区别于普通雪。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "本材质包已经开放源代码。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "你可以在Github上对其修改。"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "Github项目链接："}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": "§lhttps://github.com/Nai99/aelight_ui"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1,"text": "§f没有开发材质包经验的用户建议不要进"}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 1.5,"text": " "}},
+{"0": {"type": "label","font_type":"smooth","font_scale_factor": 2,"text": "§7©AElightUI"}},
+}
+  },
+]
+  }
+}
